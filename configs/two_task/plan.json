@@ -1,0 +1,776 @@
+{
+  "protocol_id": "two_task_v1",
+  "source_paper": "https://doi.org/10.3390/jmmp8030117",
+  "tasks": {
+    "task1": {
+      "dataset": "soldef_task1",
+      "manifest": "data/processed/soldef_task1/manifest.json",
+      "classes": [
+        "background",
+        "good",
+        "no_good"
+      ],
+      "description": "top-view SMT component placement (good / no_good)"
+    },
+    "task2": {
+      "dataset": "soldef",
+      "manifest": "data/processed/soldef/manifest.json",
+      "classes": [
+        "background",
+        "good",
+        "exc_solder",
+        "poor_solder",
+        "spike"
+      ],
+      "description": "45-degree solder joint state (good / excessive / insufficient / spike)"
+    }
+  },
+  "variants": [
+    "none",
+    "cbam",
+    "dpcam",
+    "no_dca",
+    "no_pa",
+    "no_dsa",
+    "equal_spatial",
+    "residual_cbam",
+    "residual_dpcam"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "epochs": 150,
+  "jobs": [
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "none",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_none.json",
+      "config_sha256": "6623aff452c6f10111247dd1e1622e4022156d36132d3b3688ba993740f08571"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "none",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_none.json",
+      "config_sha256": "6623aff452c6f10111247dd1e1622e4022156d36132d3b3688ba993740f08571"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "none",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_none.json",
+      "config_sha256": "6623aff452c6f10111247dd1e1622e4022156d36132d3b3688ba993740f08571"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "none",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_none.json",
+      "config_sha256": "6623aff452c6f10111247dd1e1622e4022156d36132d3b3688ba993740f08571"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "none",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_none.json",
+      "config_sha256": "6623aff452c6f10111247dd1e1622e4022156d36132d3b3688ba993740f08571"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "cbam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_cbam.json",
+      "config_sha256": "059bbc8081b58f8eda0ac96bc7a6f273971cd6c333b7aa7fa8c0b1dbb21726e9"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "cbam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_cbam.json",
+      "config_sha256": "059bbc8081b58f8eda0ac96bc7a6f273971cd6c333b7aa7fa8c0b1dbb21726e9"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "cbam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_cbam.json",
+      "config_sha256": "059bbc8081b58f8eda0ac96bc7a6f273971cd6c333b7aa7fa8c0b1dbb21726e9"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "cbam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_cbam.json",
+      "config_sha256": "059bbc8081b58f8eda0ac96bc7a6f273971cd6c333b7aa7fa8c0b1dbb21726e9"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "cbam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_cbam.json",
+      "config_sha256": "059bbc8081b58f8eda0ac96bc7a6f273971cd6c333b7aa7fa8c0b1dbb21726e9"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "dpcam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_dpcam.json",
+      "config_sha256": "df6fa2546f3326f9f2950680740678e6804db54801cd8bb20ad26a7bcfb8fa72"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "dpcam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_dpcam.json",
+      "config_sha256": "df6fa2546f3326f9f2950680740678e6804db54801cd8bb20ad26a7bcfb8fa72"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "dpcam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_dpcam.json",
+      "config_sha256": "df6fa2546f3326f9f2950680740678e6804db54801cd8bb20ad26a7bcfb8fa72"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "dpcam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_dpcam.json",
+      "config_sha256": "df6fa2546f3326f9f2950680740678e6804db54801cd8bb20ad26a7bcfb8fa72"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "dpcam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_dpcam.json",
+      "config_sha256": "df6fa2546f3326f9f2950680740678e6804db54801cd8bb20ad26a7bcfb8fa72"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dca",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_no_dca.json",
+      "config_sha256": "e0ffec40967c80f79dc738253173a9b919c2258f5a6b3b29b71903f4d4d3d102"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dca",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_no_dca.json",
+      "config_sha256": "e0ffec40967c80f79dc738253173a9b919c2258f5a6b3b29b71903f4d4d3d102"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dca",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_no_dca.json",
+      "config_sha256": "e0ffec40967c80f79dc738253173a9b919c2258f5a6b3b29b71903f4d4d3d102"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dca",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_no_dca.json",
+      "config_sha256": "e0ffec40967c80f79dc738253173a9b919c2258f5a6b3b29b71903f4d4d3d102"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dca",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_no_dca.json",
+      "config_sha256": "e0ffec40967c80f79dc738253173a9b919c2258f5a6b3b29b71903f4d4d3d102"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_pa",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_no_pa.json",
+      "config_sha256": "d0ca3b0db0783688d4afc38ae5460e0264b3ae3c9d50dc55577e5d3dd6201c9e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_pa",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_no_pa.json",
+      "config_sha256": "d0ca3b0db0783688d4afc38ae5460e0264b3ae3c9d50dc55577e5d3dd6201c9e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_pa",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_no_pa.json",
+      "config_sha256": "d0ca3b0db0783688d4afc38ae5460e0264b3ae3c9d50dc55577e5d3dd6201c9e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_pa",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_no_pa.json",
+      "config_sha256": "d0ca3b0db0783688d4afc38ae5460e0264b3ae3c9d50dc55577e5d3dd6201c9e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_pa",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_no_pa.json",
+      "config_sha256": "d0ca3b0db0783688d4afc38ae5460e0264b3ae3c9d50dc55577e5d3dd6201c9e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dsa",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_no_dsa.json",
+      "config_sha256": "56e4450ca462ec7c99a7ab44361c35c99dd46c11428f2d9bb1d94d4bcb7b162e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dsa",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_no_dsa.json",
+      "config_sha256": "56e4450ca462ec7c99a7ab44361c35c99dd46c11428f2d9bb1d94d4bcb7b162e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dsa",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_no_dsa.json",
+      "config_sha256": "56e4450ca462ec7c99a7ab44361c35c99dd46c11428f2d9bb1d94d4bcb7b162e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dsa",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_no_dsa.json",
+      "config_sha256": "56e4450ca462ec7c99a7ab44361c35c99dd46c11428f2d9bb1d94d4bcb7b162e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "no_dsa",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_no_dsa.json",
+      "config_sha256": "56e4450ca462ec7c99a7ab44361c35c99dd46c11428f2d9bb1d94d4bcb7b162e"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "equal_spatial",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_equal_spatial.json",
+      "config_sha256": "21182b122a21d4d425ea13af8ee913cf18c797f721bd215cc09895cbc6d66d82"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "equal_spatial",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_equal_spatial.json",
+      "config_sha256": "21182b122a21d4d425ea13af8ee913cf18c797f721bd215cc09895cbc6d66d82"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "equal_spatial",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_equal_spatial.json",
+      "config_sha256": "21182b122a21d4d425ea13af8ee913cf18c797f721bd215cc09895cbc6d66d82"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "equal_spatial",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_equal_spatial.json",
+      "config_sha256": "21182b122a21d4d425ea13af8ee913cf18c797f721bd215cc09895cbc6d66d82"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "equal_spatial",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_equal_spatial.json",
+      "config_sha256": "21182b122a21d4d425ea13af8ee913cf18c797f721bd215cc09895cbc6d66d82"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_cbam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_residual_cbam.json",
+      "config_sha256": "c08cb1309c848d7ad5bc5abca100d730cc087b8a786f76551d5f3fab759bf2cb"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_cbam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_residual_cbam.json",
+      "config_sha256": "c08cb1309c848d7ad5bc5abca100d730cc087b8a786f76551d5f3fab759bf2cb"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_cbam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_residual_cbam.json",
+      "config_sha256": "c08cb1309c848d7ad5bc5abca100d730cc087b8a786f76551d5f3fab759bf2cb"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_cbam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_residual_cbam.json",
+      "config_sha256": "c08cb1309c848d7ad5bc5abca100d730cc087b8a786f76551d5f3fab759bf2cb"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_cbam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_residual_cbam.json",
+      "config_sha256": "c08cb1309c848d7ad5bc5abca100d730cc087b8a786f76551d5f3fab759bf2cb"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_dpcam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task1_residual_dpcam.json",
+      "config_sha256": "acf6e36b569295c46fa7f61875e8cf0ec325c0f8fd60d10ad0364d3c2a7d9c9f"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_dpcam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task1_residual_dpcam.json",
+      "config_sha256": "acf6e36b569295c46fa7f61875e8cf0ec325c0f8fd60d10ad0364d3c2a7d9c9f"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_dpcam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task1_residual_dpcam.json",
+      "config_sha256": "acf6e36b569295c46fa7f61875e8cf0ec325c0f8fd60d10ad0364d3c2a7d9c9f"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_dpcam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task1_residual_dpcam.json",
+      "config_sha256": "acf6e36b569295c46fa7f61875e8cf0ec325c0f8fd60d10ad0364d3c2a7d9c9f"
+    },
+    {
+      "task": "task1",
+      "dataset": "soldef_task1",
+      "variant": "residual_dpcam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task1_residual_dpcam.json",
+      "config_sha256": "acf6e36b569295c46fa7f61875e8cf0ec325c0f8fd60d10ad0364d3c2a7d9c9f"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "none",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_none.json",
+      "config_sha256": "8c23f3fa5a954199db6a850b683b3f2244bb5f8fba51514c22c5c3e596b59887"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "none",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_none.json",
+      "config_sha256": "8c23f3fa5a954199db6a850b683b3f2244bb5f8fba51514c22c5c3e596b59887"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "none",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_none.json",
+      "config_sha256": "8c23f3fa5a954199db6a850b683b3f2244bb5f8fba51514c22c5c3e596b59887"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "none",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_none.json",
+      "config_sha256": "8c23f3fa5a954199db6a850b683b3f2244bb5f8fba51514c22c5c3e596b59887"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "none",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_none.json",
+      "config_sha256": "8c23f3fa5a954199db6a850b683b3f2244bb5f8fba51514c22c5c3e596b59887"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "cbam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_cbam.json",
+      "config_sha256": "22d271bb80268173c66ed232586342226ce25e74a356477073abcb4c4c3d7409"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "cbam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_cbam.json",
+      "config_sha256": "22d271bb80268173c66ed232586342226ce25e74a356477073abcb4c4c3d7409"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "cbam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_cbam.json",
+      "config_sha256": "22d271bb80268173c66ed232586342226ce25e74a356477073abcb4c4c3d7409"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "cbam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_cbam.json",
+      "config_sha256": "22d271bb80268173c66ed232586342226ce25e74a356477073abcb4c4c3d7409"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "cbam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_cbam.json",
+      "config_sha256": "22d271bb80268173c66ed232586342226ce25e74a356477073abcb4c4c3d7409"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "dpcam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_dpcam.json",
+      "config_sha256": "3e11d47ef4f22820fb689f0d9d0e2da434605d54e40bfc20de3e6c7fc9746b46"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "dpcam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_dpcam.json",
+      "config_sha256": "3e11d47ef4f22820fb689f0d9d0e2da434605d54e40bfc20de3e6c7fc9746b46"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "dpcam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_dpcam.json",
+      "config_sha256": "3e11d47ef4f22820fb689f0d9d0e2da434605d54e40bfc20de3e6c7fc9746b46"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "dpcam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_dpcam.json",
+      "config_sha256": "3e11d47ef4f22820fb689f0d9d0e2da434605d54e40bfc20de3e6c7fc9746b46"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "dpcam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_dpcam.json",
+      "config_sha256": "3e11d47ef4f22820fb689f0d9d0e2da434605d54e40bfc20de3e6c7fc9746b46"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dca",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_no_dca.json",
+      "config_sha256": "9c1555285cb8378fc3f24637fd3f6ff619dd6c51b1f7c76e3f8b7bac737b4339"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dca",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_no_dca.json",
+      "config_sha256": "9c1555285cb8378fc3f24637fd3f6ff619dd6c51b1f7c76e3f8b7bac737b4339"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dca",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_no_dca.json",
+      "config_sha256": "9c1555285cb8378fc3f24637fd3f6ff619dd6c51b1f7c76e3f8b7bac737b4339"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dca",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_no_dca.json",
+      "config_sha256": "9c1555285cb8378fc3f24637fd3f6ff619dd6c51b1f7c76e3f8b7bac737b4339"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dca",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_no_dca.json",
+      "config_sha256": "9c1555285cb8378fc3f24637fd3f6ff619dd6c51b1f7c76e3f8b7bac737b4339"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_pa",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_no_pa.json",
+      "config_sha256": "fbbc04257181206ba7000d7f116dec91962cf38f1ff2bf17255140d2b4c20612"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_pa",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_no_pa.json",
+      "config_sha256": "fbbc04257181206ba7000d7f116dec91962cf38f1ff2bf17255140d2b4c20612"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_pa",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_no_pa.json",
+      "config_sha256": "fbbc04257181206ba7000d7f116dec91962cf38f1ff2bf17255140d2b4c20612"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_pa",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_no_pa.json",
+      "config_sha256": "fbbc04257181206ba7000d7f116dec91962cf38f1ff2bf17255140d2b4c20612"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_pa",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_no_pa.json",
+      "config_sha256": "fbbc04257181206ba7000d7f116dec91962cf38f1ff2bf17255140d2b4c20612"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dsa",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_no_dsa.json",
+      "config_sha256": "1d1434ee2588fd254fd9aaad67b28f138fd4bdb7834941a837934ab486527e78"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dsa",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_no_dsa.json",
+      "config_sha256": "1d1434ee2588fd254fd9aaad67b28f138fd4bdb7834941a837934ab486527e78"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dsa",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_no_dsa.json",
+      "config_sha256": "1d1434ee2588fd254fd9aaad67b28f138fd4bdb7834941a837934ab486527e78"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dsa",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_no_dsa.json",
+      "config_sha256": "1d1434ee2588fd254fd9aaad67b28f138fd4bdb7834941a837934ab486527e78"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "no_dsa",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_no_dsa.json",
+      "config_sha256": "1d1434ee2588fd254fd9aaad67b28f138fd4bdb7834941a837934ab486527e78"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "equal_spatial",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_equal_spatial.json",
+      "config_sha256": "b851f3f27f8dd6127a8956bcdfd292108f73a4a9ca5dcc184d75204508fe9719"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "equal_spatial",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_equal_spatial.json",
+      "config_sha256": "b851f3f27f8dd6127a8956bcdfd292108f73a4a9ca5dcc184d75204508fe9719"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "equal_spatial",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_equal_spatial.json",
+      "config_sha256": "b851f3f27f8dd6127a8956bcdfd292108f73a4a9ca5dcc184d75204508fe9719"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "equal_spatial",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_equal_spatial.json",
+      "config_sha256": "b851f3f27f8dd6127a8956bcdfd292108f73a4a9ca5dcc184d75204508fe9719"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "equal_spatial",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_equal_spatial.json",
+      "config_sha256": "b851f3f27f8dd6127a8956bcdfd292108f73a4a9ca5dcc184d75204508fe9719"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_cbam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_residual_cbam.json",
+      "config_sha256": "890bd6ff54cadde6b4b9ef468aaee984956999da179e7db336e6b3f62f1184e2"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_cbam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_residual_cbam.json",
+      "config_sha256": "890bd6ff54cadde6b4b9ef468aaee984956999da179e7db336e6b3f62f1184e2"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_cbam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_residual_cbam.json",
+      "config_sha256": "890bd6ff54cadde6b4b9ef468aaee984956999da179e7db336e6b3f62f1184e2"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_cbam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_residual_cbam.json",
+      "config_sha256": "890bd6ff54cadde6b4b9ef468aaee984956999da179e7db336e6b3f62f1184e2"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_cbam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_residual_cbam.json",
+      "config_sha256": "890bd6ff54cadde6b4b9ef468aaee984956999da179e7db336e6b3f62f1184e2"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_dpcam",
+      "seed": 42,
+      "config": "configs/two_task/twotask_task2_residual_dpcam.json",
+      "config_sha256": "d3ae97948b5b43a64a2da990b48fa6156ba58eadfae442bee97eca95b85754a7"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_dpcam",
+      "seed": 43,
+      "config": "configs/two_task/twotask_task2_residual_dpcam.json",
+      "config_sha256": "d3ae97948b5b43a64a2da990b48fa6156ba58eadfae442bee97eca95b85754a7"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_dpcam",
+      "seed": 44,
+      "config": "configs/two_task/twotask_task2_residual_dpcam.json",
+      "config_sha256": "d3ae97948b5b43a64a2da990b48fa6156ba58eadfae442bee97eca95b85754a7"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_dpcam",
+      "seed": 45,
+      "config": "configs/two_task/twotask_task2_residual_dpcam.json",
+      "config_sha256": "d3ae97948b5b43a64a2da990b48fa6156ba58eadfae442bee97eca95b85754a7"
+    },
+    {
+      "task": "task2",
+      "dataset": "soldef",
+      "variant": "residual_dpcam",
+      "seed": 46,
+      "config": "configs/two_task/twotask_task2_residual_dpcam.json",
+      "config_sha256": "d3ae97948b5b43a64a2da990b48fa6156ba58eadfae442bee97eca95b85754a7"
+    }
+  ],
+  "data_limitations": [
+    "Task 1: 228 top-view originals with one good/no_good component region each; two deterministic 1440 crops per source, resized to 512.",
+    "Task 2: 200 45-degree originals with four-class joint annotations; two 1024 crops per source, resized to 512.",
+    "Both manifests use source-image-level 70/15/15 splits with no shared source.",
+    "Test splits are frozen and are not used for checkpoint or hyperparameter selection."
+  ],
+  "selection": "minimum validation loss; paired training seeds only"
+}

@@ -1,0 +1,519 @@
+{
+  "protocol_id": "two_task_comparison_v1",
+  "previous_plan": "configs/two_task/plan.json",
+  "previous_plan_sha256": "2d3d8aa729fcf2ed9c0cca6203538bf3f4fe3db1ba7f908b692597da6b6e74b7",
+  "models": [
+    "emcad",
+    "segman_s",
+    "mambavision_t",
+    "segformer_b2",
+    "unet2015",
+    "deeplabv3_r101_paper"
+  ],
+  "tasks": [
+    "task1",
+    "task2"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "epochs": 150,
+  "jobs": [
+    {
+      "task": "task1",
+      "model": "emcad",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_emcad.json",
+      "config_sha256": "394cfc918d7800b7a35d274ede920a1c40ad6c13af10614bb63d367f0ac20982",
+      "run": "comparison_runs/comparison_task1_emcad/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "emcad",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_emcad.json",
+      "config_sha256": "58494354444b30f9821957d383027c7bd8e471b7ba71c67173947568f8c3f808",
+      "run": "comparison_runs/comparison_task2_emcad/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "segman_s",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_segman_s.json",
+      "config_sha256": "efdba34c518f9470d44904ca97485fed98c9ad024713f3fc7197a04bee9ad3c7",
+      "run": "comparison_runs/comparison_task1_segman_s/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "segman_s",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_segman_s.json",
+      "config_sha256": "9372f2b8e044919b811da3e7206160db77d7f85aec23840d3139b22ce027de89",
+      "run": "comparison_runs/comparison_task2_segman_s/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "mambavision_t",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_mambavision_t.json",
+      "config_sha256": "1ed2c256050c28c645679cf9d8dcde569fbf509adab6f6a973db1133b946fbd0",
+      "run": "comparison_runs/comparison_task1_mambavision_t/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "mambavision_t",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_mambavision_t.json",
+      "config_sha256": "aabd6aa1ec87072561195cf02a9a95061a9abe5686f1b990d7fa18762b0c0f07",
+      "run": "comparison_runs/comparison_task2_mambavision_t/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "segformer_b2",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_segformer_b2.json",
+      "config_sha256": "4ef57b992f69396a18ceb3e27ba7526171a91bfd4fa4d0f61044fc586485a0ec",
+      "run": "comparison_runs/comparison_task1_segformer_b2/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "segformer_b2",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_segformer_b2.json",
+      "config_sha256": "29b5dda8e907cd6c65ee9e84bd7a4226c0dbab9f8cf071aca64b380f63d053b2",
+      "run": "comparison_runs/comparison_task2_segformer_b2/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "unet2015",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_unet2015.json",
+      "config_sha256": "5ab2c08ded286334578f2d36badffbcef81e93317e63d67d63fdf618d1497f3f",
+      "run": "comparison_runs/comparison_task1_unet2015/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "unet2015",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_unet2015.json",
+      "config_sha256": "a519c7742091e25bf26c302896c7d7c6f19c9d29cf5ffdb828325e00f727b97d",
+      "run": "comparison_runs/comparison_task2_unet2015/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "deeplabv3_r101_paper",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task1_deeplabv3_r101_paper.json",
+      "config_sha256": "b7a36b71076fecfd10e1d6d34bb3c21fec718d1e54bd6922f164826274c4f670",
+      "run": "comparison_runs/comparison_task1_deeplabv3_r101_paper/seed_42"
+    },
+    {
+      "task": "task2",
+      "model": "deeplabv3_r101_paper",
+      "seed": 42,
+      "config": "configs/comparison_study/comparison_task2_deeplabv3_r101_paper.json",
+      "config_sha256": "9ff30fa27b54e52b9944cbf518ce51421ad69d132a81291b930a980fd38b11c3",
+      "run": "comparison_runs/comparison_task2_deeplabv3_r101_paper/seed_42"
+    },
+    {
+      "task": "task1",
+      "model": "emcad",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_emcad.json",
+      "config_sha256": "394cfc918d7800b7a35d274ede920a1c40ad6c13af10614bb63d367f0ac20982",
+      "run": "comparison_runs/comparison_task1_emcad/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "emcad",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_emcad.json",
+      "config_sha256": "58494354444b30f9821957d383027c7bd8e471b7ba71c67173947568f8c3f808",
+      "run": "comparison_runs/comparison_task2_emcad/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "segman_s",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_segman_s.json",
+      "config_sha256": "efdba34c518f9470d44904ca97485fed98c9ad024713f3fc7197a04bee9ad3c7",
+      "run": "comparison_runs/comparison_task1_segman_s/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "segman_s",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_segman_s.json",
+      "config_sha256": "9372f2b8e044919b811da3e7206160db77d7f85aec23840d3139b22ce027de89",
+      "run": "comparison_runs/comparison_task2_segman_s/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "mambavision_t",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_mambavision_t.json",
+      "config_sha256": "1ed2c256050c28c645679cf9d8dcde569fbf509adab6f6a973db1133b946fbd0",
+      "run": "comparison_runs/comparison_task1_mambavision_t/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "mambavision_t",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_mambavision_t.json",
+      "config_sha256": "aabd6aa1ec87072561195cf02a9a95061a9abe5686f1b990d7fa18762b0c0f07",
+      "run": "comparison_runs/comparison_task2_mambavision_t/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "segformer_b2",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_segformer_b2.json",
+      "config_sha256": "4ef57b992f69396a18ceb3e27ba7526171a91bfd4fa4d0f61044fc586485a0ec",
+      "run": "comparison_runs/comparison_task1_segformer_b2/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "segformer_b2",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_segformer_b2.json",
+      "config_sha256": "29b5dda8e907cd6c65ee9e84bd7a4226c0dbab9f8cf071aca64b380f63d053b2",
+      "run": "comparison_runs/comparison_task2_segformer_b2/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "unet2015",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_unet2015.json",
+      "config_sha256": "5ab2c08ded286334578f2d36badffbcef81e93317e63d67d63fdf618d1497f3f",
+      "run": "comparison_runs/comparison_task1_unet2015/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "unet2015",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_unet2015.json",
+      "config_sha256": "a519c7742091e25bf26c302896c7d7c6f19c9d29cf5ffdb828325e00f727b97d",
+      "run": "comparison_runs/comparison_task2_unet2015/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "deeplabv3_r101_paper",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task1_deeplabv3_r101_paper.json",
+      "config_sha256": "b7a36b71076fecfd10e1d6d34bb3c21fec718d1e54bd6922f164826274c4f670",
+      "run": "comparison_runs/comparison_task1_deeplabv3_r101_paper/seed_43"
+    },
+    {
+      "task": "task2",
+      "model": "deeplabv3_r101_paper",
+      "seed": 43,
+      "config": "configs/comparison_study/comparison_task2_deeplabv3_r101_paper.json",
+      "config_sha256": "9ff30fa27b54e52b9944cbf518ce51421ad69d132a81291b930a980fd38b11c3",
+      "run": "comparison_runs/comparison_task2_deeplabv3_r101_paper/seed_43"
+    },
+    {
+      "task": "task1",
+      "model": "emcad",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_emcad.json",
+      "config_sha256": "394cfc918d7800b7a35d274ede920a1c40ad6c13af10614bb63d367f0ac20982",
+      "run": "comparison_runs/comparison_task1_emcad/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "emcad",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_emcad.json",
+      "config_sha256": "58494354444b30f9821957d383027c7bd8e471b7ba71c67173947568f8c3f808",
+      "run": "comparison_runs/comparison_task2_emcad/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "segman_s",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_segman_s.json",
+      "config_sha256": "efdba34c518f9470d44904ca97485fed98c9ad024713f3fc7197a04bee9ad3c7",
+      "run": "comparison_runs/comparison_task1_segman_s/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "segman_s",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_segman_s.json",
+      "config_sha256": "9372f2b8e044919b811da3e7206160db77d7f85aec23840d3139b22ce027de89",
+      "run": "comparison_runs/comparison_task2_segman_s/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "mambavision_t",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_mambavision_t.json",
+      "config_sha256": "1ed2c256050c28c645679cf9d8dcde569fbf509adab6f6a973db1133b946fbd0",
+      "run": "comparison_runs/comparison_task1_mambavision_t/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "mambavision_t",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_mambavision_t.json",
+      "config_sha256": "aabd6aa1ec87072561195cf02a9a95061a9abe5686f1b990d7fa18762b0c0f07",
+      "run": "comparison_runs/comparison_task2_mambavision_t/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "segformer_b2",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_segformer_b2.json",
+      "config_sha256": "4ef57b992f69396a18ceb3e27ba7526171a91bfd4fa4d0f61044fc586485a0ec",
+      "run": "comparison_runs/comparison_task1_segformer_b2/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "segformer_b2",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_segformer_b2.json",
+      "config_sha256": "29b5dda8e907cd6c65ee9e84bd7a4226c0dbab9f8cf071aca64b380f63d053b2",
+      "run": "comparison_runs/comparison_task2_segformer_b2/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "unet2015",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_unet2015.json",
+      "config_sha256": "5ab2c08ded286334578f2d36badffbcef81e93317e63d67d63fdf618d1497f3f",
+      "run": "comparison_runs/comparison_task1_unet2015/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "unet2015",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_unet2015.json",
+      "config_sha256": "a519c7742091e25bf26c302896c7d7c6f19c9d29cf5ffdb828325e00f727b97d",
+      "run": "comparison_runs/comparison_task2_unet2015/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "deeplabv3_r101_paper",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task1_deeplabv3_r101_paper.json",
+      "config_sha256": "b7a36b71076fecfd10e1d6d34bb3c21fec718d1e54bd6922f164826274c4f670",
+      "run": "comparison_runs/comparison_task1_deeplabv3_r101_paper/seed_44"
+    },
+    {
+      "task": "task2",
+      "model": "deeplabv3_r101_paper",
+      "seed": 44,
+      "config": "configs/comparison_study/comparison_task2_deeplabv3_r101_paper.json",
+      "config_sha256": "9ff30fa27b54e52b9944cbf518ce51421ad69d132a81291b930a980fd38b11c3",
+      "run": "comparison_runs/comparison_task2_deeplabv3_r101_paper/seed_44"
+    },
+    {
+      "task": "task1",
+      "model": "emcad",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_emcad.json",
+      "config_sha256": "394cfc918d7800b7a35d274ede920a1c40ad6c13af10614bb63d367f0ac20982",
+      "run": "comparison_runs/comparison_task1_emcad/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "emcad",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_emcad.json",
+      "config_sha256": "58494354444b30f9821957d383027c7bd8e471b7ba71c67173947568f8c3f808",
+      "run": "comparison_runs/comparison_task2_emcad/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "segman_s",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_segman_s.json",
+      "config_sha256": "efdba34c518f9470d44904ca97485fed98c9ad024713f3fc7197a04bee9ad3c7",
+      "run": "comparison_runs/comparison_task1_segman_s/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "segman_s",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_segman_s.json",
+      "config_sha256": "9372f2b8e044919b811da3e7206160db77d7f85aec23840d3139b22ce027de89",
+      "run": "comparison_runs/comparison_task2_segman_s/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "mambavision_t",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_mambavision_t.json",
+      "config_sha256": "1ed2c256050c28c645679cf9d8dcde569fbf509adab6f6a973db1133b946fbd0",
+      "run": "comparison_runs/comparison_task1_mambavision_t/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "mambavision_t",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_mambavision_t.json",
+      "config_sha256": "aabd6aa1ec87072561195cf02a9a95061a9abe5686f1b990d7fa18762b0c0f07",
+      "run": "comparison_runs/comparison_task2_mambavision_t/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "segformer_b2",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_segformer_b2.json",
+      "config_sha256": "4ef57b992f69396a18ceb3e27ba7526171a91bfd4fa4d0f61044fc586485a0ec",
+      "run": "comparison_runs/comparison_task1_segformer_b2/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "segformer_b2",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_segformer_b2.json",
+      "config_sha256": "29b5dda8e907cd6c65ee9e84bd7a4226c0dbab9f8cf071aca64b380f63d053b2",
+      "run": "comparison_runs/comparison_task2_segformer_b2/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "unet2015",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_unet2015.json",
+      "config_sha256": "5ab2c08ded286334578f2d36badffbcef81e93317e63d67d63fdf618d1497f3f",
+      "run": "comparison_runs/comparison_task1_unet2015/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "unet2015",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_unet2015.json",
+      "config_sha256": "a519c7742091e25bf26c302896c7d7c6f19c9d29cf5ffdb828325e00f727b97d",
+      "run": "comparison_runs/comparison_task2_unet2015/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "deeplabv3_r101_paper",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task1_deeplabv3_r101_paper.json",
+      "config_sha256": "b7a36b71076fecfd10e1d6d34bb3c21fec718d1e54bd6922f164826274c4f670",
+      "run": "comparison_runs/comparison_task1_deeplabv3_r101_paper/seed_45"
+    },
+    {
+      "task": "task2",
+      "model": "deeplabv3_r101_paper",
+      "seed": 45,
+      "config": "configs/comparison_study/comparison_task2_deeplabv3_r101_paper.json",
+      "config_sha256": "9ff30fa27b54e52b9944cbf518ce51421ad69d132a81291b930a980fd38b11c3",
+      "run": "comparison_runs/comparison_task2_deeplabv3_r101_paper/seed_45"
+    },
+    {
+      "task": "task1",
+      "model": "emcad",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_emcad.json",
+      "config_sha256": "394cfc918d7800b7a35d274ede920a1c40ad6c13af10614bb63d367f0ac20982",
+      "run": "comparison_runs/comparison_task1_emcad/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "emcad",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_emcad.json",
+      "config_sha256": "58494354444b30f9821957d383027c7bd8e471b7ba71c67173947568f8c3f808",
+      "run": "comparison_runs/comparison_task2_emcad/seed_46"
+    },
+    {
+      "task": "task1",
+      "model": "segman_s",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_segman_s.json",
+      "config_sha256": "efdba34c518f9470d44904ca97485fed98c9ad024713f3fc7197a04bee9ad3c7",
+      "run": "comparison_runs/comparison_task1_segman_s/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "segman_s",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_segman_s.json",
+      "config_sha256": "9372f2b8e044919b811da3e7206160db77d7f85aec23840d3139b22ce027de89",
+      "run": "comparison_runs/comparison_task2_segman_s/seed_46"
+    },
+    {
+      "task": "task1",
+      "model": "mambavision_t",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_mambavision_t.json",
+      "config_sha256": "1ed2c256050c28c645679cf9d8dcde569fbf509adab6f6a973db1133b946fbd0",
+      "run": "comparison_runs/comparison_task1_mambavision_t/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "mambavision_t",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_mambavision_t.json",
+      "config_sha256": "aabd6aa1ec87072561195cf02a9a95061a9abe5686f1b990d7fa18762b0c0f07",
+      "run": "comparison_runs/comparison_task2_mambavision_t/seed_46"
+    },
+    {
+      "task": "task1",
+      "model": "segformer_b2",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_segformer_b2.json",
+      "config_sha256": "4ef57b992f69396a18ceb3e27ba7526171a91bfd4fa4d0f61044fc586485a0ec",
+      "run": "comparison_runs/comparison_task1_segformer_b2/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "segformer_b2",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_segformer_b2.json",
+      "config_sha256": "29b5dda8e907cd6c65ee9e84bd7a4226c0dbab9f8cf071aca64b380f63d053b2",
+      "run": "comparison_runs/comparison_task2_segformer_b2/seed_46"
+    },
+    {
+      "task": "task1",
+      "model": "unet2015",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_unet2015.json",
+      "config_sha256": "5ab2c08ded286334578f2d36badffbcef81e93317e63d67d63fdf618d1497f3f",
+      "run": "comparison_runs/comparison_task1_unet2015/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "unet2015",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_unet2015.json",
+      "config_sha256": "a519c7742091e25bf26c302896c7d7c6f19c9d29cf5ffdb828325e00f727b97d",
+      "run": "comparison_runs/comparison_task2_unet2015/seed_46"
+    },
+    {
+      "task": "task1",
+      "model": "deeplabv3_r101_paper",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task1_deeplabv3_r101_paper.json",
+      "config_sha256": "b7a36b71076fecfd10e1d6d34bb3c21fec718d1e54bd6922f164826274c4f670",
+      "run": "comparison_runs/comparison_task1_deeplabv3_r101_paper/seed_46"
+    },
+    {
+      "task": "task2",
+      "model": "deeplabv3_r101_paper",
+      "seed": 46,
+      "config": "configs/comparison_study/comparison_task2_deeplabv3_r101_paper.json",
+      "config_sha256": "9ff30fa27b54e52b9944cbf518ce51421ad69d132a81291b930a980fd38b11c3",
+      "run": "comparison_runs/comparison_task2_deeplabv3_r101_paper/seed_46"
+    }
+  ],
+  "order": "seed, model, alternating task1/task2",
+  "start_gate": "previous queue lock released, status completed with no failures, all 90 evaluation_completed",
+  "metrics": [
+    "mIoU_percent",
+    "mPA_percent",
+    "Recall_defect_percent",
+    "F1_macro",
+    "Parameters_M",
+    "FLOPs_supported_G",
+    "FPS"
+  ],
+  "test_gate": "all 90 ablations plus 60 comparisons validated; freeze all selected checkpoint hashes before test"
+}

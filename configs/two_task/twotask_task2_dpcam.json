@@ -1,0 +1,64 @@
+{
+  "experiment": "twotask_task2_dpcam",
+  "protocol_id": "two_task_v1",
+  "task": "task2",
+  "task_description": "45-degree solder joint state (good / excessive / insufficient / spike)",
+  "dataset": "soldef",
+  "classes": [
+    "background",
+    "good",
+    "exc_solder",
+    "poor_solder",
+    "spike"
+  ],
+  "image_size": 512,
+  "split_seed": 42,
+  "split_protocol": "source_group",
+  "model": {
+    "name": "paper_unet",
+    "backbone": "convnext_base",
+    "attention": "dpcam",
+    "pretrained": true,
+    "feature_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "model_provenance": "Original ConvNeXt-Base/decoder and DPCAM operators; explicit study_variant defines removals or residual candidate; common parameters shared before attention",
+  "training": {
+    "epochs": 150,
+    "batch_size": 2,
+    "lr": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 1e-05,
+    "scheduler": "cosine",
+    "workers": 4,
+    "cpu_threads": 4,
+    "selection": "min_val_loss",
+    "mixed_precision": false,
+    "min_lr": 1e-06
+  },
+  "loss": {
+    "alpha": 0.25,
+    "gamma": 2.0,
+    "dice_weight": 0.5,
+    "focal_weight": 0.5,
+    "smooth": 1e-06
+  },
+  "loss_protocol": "softmax_one_vs_rest_binary_focal_mean_over_classes",
+  "metric_protocol": "global_confusion_macro_all_classes_empty_zero_v1",
+  "position_encoding": "stage resolution at image_size; bilinear interpolation",
+  "profiling": {
+    "batch_size": 1,
+    "warmup": 10,
+    "iterations": 100
+  },
+  "manifest": "data/processed/soldef/manifest.json",
+  "manifest_sha256": "f1d240244d420e55ae0a7aa5023af62a4fd7a8779260b6969186dddd3a15f622",
+  "loss_numerics": "logsumexp/log_softmax; same softmax one-vs-rest Dice/Focal formula; no hard probability clamp",
+  "evaluation_scope": "train/validation only; test frozen",
+  "study_variant": "dpcam",
+  "initialization_protocol": "Construct common no-attention model first; append attention with a separate seeded RNG"
+}

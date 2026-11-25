@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "environment": {
+    "python": "3.11",
+    "platform": "Linux x86_64",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "cxx11abi": false
+  },
+  "default_assets": [
+    "pvt_v2_b2",
+    "mambavision_t",
+    "segman_s",
+    "mit_b2_source",
+    "mit_b2",
+    "resnet101"
+  ],
+  "assets": {
+    "natten": {
+      "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.17.5/natten-0.17.5%2Btorch250cu121-cp311-cp311-linux_x86_64.whl",
+      "sha256": "bd4f20fce6f3bb738da8fb96bf55c796dd2707195e8bfb2ccd94ae28a99a94d5",
+      "bytes": 473479457,
+      "path": "modern_study/assets/natten-0.17.5+torch250cu121-cp311-cp311-linux_x86_64.whl",
+      "kind": "wheel"
+    },
+    "mamba_ssm": {
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.2.4/mamba_ssm-2.2.4%2Bcu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "a46c3589df20dfa90759eaf7da83e91342d110a633f3192a33d0973dbc995e57",
+      "bytes": 323669065,
+      "path": "modern_study/assets/mamba_ssm-2.2.4+cu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "kind": "wheel"
+    },
+    "cuda_nvcc": {
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.1.105-archive.tar.xz",
+      "sha256": "0b85f7eee17788abbd170b0b493c74ce2e9fd5a9604461b99c2c378165e1083b",
+      "bytes": 44459684,
+      "path": "modern_study/assets/cuda_nvcc-linux-x86_64-12.1.105-archive.tar.xz",
+      "kind": "toolkit_archive"
+    },
+    "cuda_cudart": {
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/linux-x86_64/cuda_cudart-linux-x86_64-12.1.105-archive.tar.xz",
+      "sha256": "6096ec878c8c443258d39c6e9cf2decef127f8aa8da594fdc5a336d047ab6bd9",
+      "bytes": 984372,
+      "path": "modern_study/assets/cuda_cudart-linux-x86_64-12.1.105-archive.tar.xz",
+      "kind": "toolkit_archive"
+    },
+    "cuda_cccl": {
+      "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cccl/linux-x86_64/cuda_cccl-linux-x86_64-12.1.109-archive.tar.xz",
+      "sha256": "b84ef3ec3dc1b4891267be25846f0c3ed7f9fa84154d59eba805402b86991baa",
+      "bytes": 1024940,
+      "path": "modern_study/assets/cuda_cccl-linux-x86_64-12.1.109-archive.tar.xz",
+      "kind": "toolkit_archive"
+    },
+    "pvt_v2_b2": {
+      "url": "https://github.com/whai362/PVT/releases/download/v2/pvt_v2_b2.pth",
+      "sha256": "80711cd1b37ffba12bec6c7a2a7c54efe2315ed635e6d2055fd51c3e909ede4d",
+      "bytes": 101501299,
+      "path": "modern_study/assets/pvt_v2_b2.pth",
+      "kind": "weight"
+    },
+    "mambavision_t": {
+      "url": "https://huggingface.co/nvidia/MambaVision-T-1K/resolve/main/mambavision_tiny_1k.pth.tar",
+      "sha256": "952a3e486f94bbe863c753a7ecabe282b2e3b8adbb0d98057e047e4f554c2a9b",
+      "bytes": 381784174,
+      "path": "modern_study/assets/mambavision_tiny_1k.pth.tar",
+      "kind": "weight"
+    },
+    "segman_s": {
+      "path": "modern_study/assets/SegMAN_Encoder_s.pth.tar",
+      "sha256": "be12d9954e49a12266913018d5565261825c53c530cf8a0ba0fdb05e4ea33059",
+      "bytes": 409147455,
+      "kind": "weight",
+      "url": "https://drive.google.com/file/d/152hZo70iJKO2mg9DWxBgG0na-wnqq4WF/view",
+      "manual": true,
+      "note": "ImageNet-1k encoder from the author classification folder, not ADE20K segmentation weights. Download with browser or gdown, then --cache-dir."
+    },
+    "mit_b2_source": {
+      "path": "modern_study/assets/mit_b2_hf.bin",
+      "sha256": "4500b5665471b593e6757e15bcca5034f433fe3902fe8ec2b7230774a57f264f",
+      "bytes": 98978917,
+      "kind": "weight",
+      "url": "https://huggingface.co/nvidia/mit-b2/resolve/main/pytorch_model.bin"
+    },
+    "mit_b2": {
+      "path": "modern_study/assets/mit_b2.pth",
+      "sha256": "7cd40972ccdb467b3e061ec99e29470dee0245ac684031f01ca64af0427e44c0",
+      "bytes": 98930244,
+      "kind": "weight",
+      "derived_from": "mit_b2_source",
+      "note": "Lossless rename and K/V concatenation, serialized with torch 2.5.1 and filename mit_b2.pth."
+    },
+    "resnet101": {
+      "path": "weights/resnet101-63fe2227.pth",
+      "sha256": "63fe2227b86e8f1f2063f43a75c84d195911b6a0eace650907dd3dc62dd49a0a",
+      "bytes": 178793939,
+      "kind": "weight",
+      "url": "https://download.pytorch.org/models/resnet101-63fe2227.pth"
+    }
+  }
+}

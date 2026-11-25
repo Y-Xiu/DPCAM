@@ -1,0 +1,58 @@
+{
+  "experiment": "comparison_task1_deeplabv3_r101_paper",
+  "protocol_id": "two_task_comparison_v1",
+  "task": "task1",
+  "task_description": "top-view SMT component placement (good / no_good)",
+  "dataset": "soldef_task1",
+  "classes": [
+    "background",
+    "good",
+    "no_good"
+  ],
+  "image_size": 512,
+  "split_seed": 42,
+  "split_protocol": "source_group",
+  "model": {
+    "name": "deeplabv3_r101_paper",
+    "backbone": "resnet101",
+    "attention": null,
+    "pretrained": true,
+    "weights_path": "weights/resnet101-63fe2227.pth",
+    "weights_sha256": "63fe2227b86e8f1f2063f43a75c84d195911b6a0eace650907dd3dc62dd49a0a"
+  },
+  "model_provenance": "Pinned author model; modern_study/vendor. Necessary author auxiliary supervision retained; common SolDef training budget, not original benchmark replication.",
+  "training": {
+    "epochs": 150,
+    "batch_size": 2,
+    "lr": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 1e-05,
+    "scheduler": "cosine",
+    "workers": 4,
+    "cpu_threads": 4,
+    "selection": "min_val_loss",
+    "mixed_precision": false,
+    "min_lr": 1e-06
+  },
+  "loss": {
+    "alpha": 0.25,
+    "gamma": 2.0,
+    "dice_weight": 0.5,
+    "focal_weight": 0.5,
+    "smooth": 1e-06
+  },
+  "loss_protocol": "softmax_one_vs_rest_binary_focal_mean_over_classes",
+  "metric_protocol": "global_confusion_macro_all_classes_empty_zero_v1",
+  "profiling": {
+    "batch_size": 1,
+    "warmup": 10,
+    "iterations": 100
+  },
+  "manifest": "data/processed/soldef_task1/manifest.json",
+  "manifest_sha256": "b89fac06d40d733405e33462a39c4332c1dbdac1ee847ed3af10a70f925c1b76",
+  "loss_numerics": "logsumexp/log_softmax; same softmax one-vs-rest Dice/Focal formula; no hard probability clamp",
+  "evaluation_scope": "train/validation; all comparisons plus ablations selected before final test",
+  "initialization_protocol": "ImageNet-1k encoder, random segmentation heads; classic U-Net from scratch",
+  "training_loss": "stable_paper_DiceFocal",
+  "validation_selection_loss": "common stable paper Dice/Focal on main output only"
+}

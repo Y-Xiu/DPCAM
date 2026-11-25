@@ -1,0 +1,6064 @@
+{
+  "dataset": "soldef",
+  "classes": [
+    "background",
+    "good",
+    "exc_solder",
+    "poor_solder",
+    "spike"
+  ],
+  "split_seed": 42,
+  "split_unit": "source_image",
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "crop_size": 1024,
+  "reference_manifest_sha256": "f1d240244d420e55ae0a7aa5023af62a4fd7a8779260b6969186dddd3a15f622",
+  "records": [
+    {
+      "id": "WIN_20220330_13_11_16_Pro_left",
+      "source_id": "WIN_20220330_13_11_16_Pro",
+      "source_sha256": "debe8affa7b7f438f842e08c68df5049c8667dbe30090e3583f2b0a6e16ba6b1",
+      "split": "train",
+      "crop_xyxy": [
+        73,
+        170,
+        1097,
+        1194
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_11_16_Pro_right",
+      "source_id": "WIN_20220330_13_11_16_Pro",
+      "source_sha256": "debe8affa7b7f438f842e08c68df5049c8667dbe30090e3583f2b0a6e16ba6b1",
+      "split": "train",
+      "crop_xyxy": [
+        1097,
+        263,
+        2121,
+        1287
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_11_29_Pro_left",
+      "source_id": "WIN_20220330_13_11_29_Pro",
+      "source_sha256": "82ed1400ba1129645d79ce2038ebcf70f7274b339b65fdc70290416a338c9060",
+      "split": "train",
+      "crop_xyxy": [
+        181,
+        174,
+        1205,
+        1198
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_11_29_Pro_right",
+      "source_id": "WIN_20220330_13_11_29_Pro",
+      "source_sha256": "82ed1400ba1129645d79ce2038ebcf70f7274b339b65fdc70290416a338c9060",
+      "split": "train",
+      "crop_xyxy": [
+        1205,
+        214,
+        2229,
+        1238
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_11_58_Pro_left",
+      "source_id": "WIN_20220330_13_11_58_Pro",
+      "source_sha256": "f67c44017eebc0bae47a3319a1401e984b2cc58698a1b97e73c73f39ede43ca5",
+      "split": "train",
+      "crop_xyxy": [
+        174,
+        178,
+        1198,
+        1202
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_11_58_Pro_right",
+      "source_id": "WIN_20220330_13_11_58_Pro",
+      "source_sha256": "f67c44017eebc0bae47a3319a1401e984b2cc58698a1b97e73c73f39ede43ca5",
+      "split": "train",
+      "crop_xyxy": [
+        1198,
+        218,
+        2222,
+        1242
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_12_12_Pro_left",
+      "source_id": "WIN_20220330_13_12_12_Pro",
+      "source_sha256": "cd1b1a76d9ccc5bda9c54f37be7d62007c91a86d515ca9a2eb4b5395727c40dc",
+      "split": "train",
+      "crop_xyxy": [
+        81,
+        235,
+        1105,
+        1259
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_12_12_Pro_right",
+      "source_id": "WIN_20220330_13_12_12_Pro",
+      "source_sha256": "cd1b1a76d9ccc5bda9c54f37be7d62007c91a86d515ca9a2eb4b5395727c40dc",
+      "split": "train",
+      "crop_xyxy": [
+        1105,
+        231,
+        2129,
+        1255
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_13_31_Pro_left",
+      "source_id": "WIN_20220330_13_13_31_Pro",
+      "source_sha256": "fd08813d710a43fc210fe85bb3cb5aedd3eee0009207ac59c18b303572d57c71",
+      "split": "train",
+      "crop_xyxy": [
+        201,
+        180,
+        1225,
+        1204
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_13_31_Pro_right",
+      "source_id": "WIN_20220330_13_13_31_Pro",
+      "source_sha256": "fd08813d710a43fc210fe85bb3cb5aedd3eee0009207ac59c18b303572d57c71",
+      "split": "train",
+      "crop_xyxy": [
+        1225,
+        262,
+        2249,
+        1286
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_17_14_Pro_left",
+      "source_id": "WIN_20220330_13_17_14_Pro",
+      "source_sha256": "a8a838366df7308b4ad9aa8bfd977f44c216992bc5dd96780b3669a03f439baa",
+      "split": "train",
+      "crop_xyxy": [
+        102,
+        174,
+        1126,
+        1198
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_17_14_Pro_right",
+      "source_id": "WIN_20220330_13_17_14_Pro",
+      "source_sha256": "a8a838366df7308b4ad9aa8bfd977f44c216992bc5dd96780b3669a03f439baa",
+      "split": "train",
+      "crop_xyxy": [
+        1126,
+        249,
+        2150,
+        1273
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_17_51_Pro_left",
+      "source_id": "WIN_20220330_13_17_51_Pro",
+      "source_sha256": "4b52b3fd9ceb2411d705473512932cd1f6629c072f45554eea3c05f151a61961",
+      "split": "train",
+      "crop_xyxy": [
+        147,
+        192,
+        1171,
+        1216
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_17_51_Pro_right",
+      "source_id": "WIN_20220330_13_17_51_Pro",
+      "source_sha256": "4b52b3fd9ceb2411d705473512932cd1f6629c072f45554eea3c05f151a61961",
+      "split": "train",
+      "crop_xyxy": [
+        1171,
+        275,
+        2195,
+        1299
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_18_07_Pro_left",
+      "source_id": "WIN_20220330_13_18_07_Pro",
+      "source_sha256": "bfd9c27b7324588bcfb3f8b7b9859266fd73d5c9a1b461c97c0c50e3c65c671c",
+      "split": "val",
+      "crop_xyxy": [
+        228,
+        171,
+        1252,
+        1195
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_18_07_Pro_right",
+      "source_id": "WIN_20220330_13_18_07_Pro",
+      "source_sha256": "bfd9c27b7324588bcfb3f8b7b9859266fd73d5c9a1b461c97c0c50e3c65c671c",
+      "split": "val",
+      "crop_xyxy": [
+        1252,
+        229,
+        2276,
+        1253
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_18_32_Pro_left",
+      "source_id": "WIN_20220330_13_18_32_Pro",
+      "source_sha256": "f7c04cbad438613fbdbfeb07ae3c68128c55e38ddea108c5b58b82385a60db60",
+      "split": "val",
+      "crop_xyxy": [
+        195,
+        143,
+        1219,
+        1167
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_18_32_Pro_right",
+      "source_id": "WIN_20220330_13_18_32_Pro",
+      "source_sha256": "f7c04cbad438613fbdbfeb07ae3c68128c55e38ddea108c5b58b82385a60db60",
+      "split": "val",
+      "crop_xyxy": [
+        1219,
+        180,
+        2243,
+        1204
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_19_17_Pro_left",
+      "source_id": "WIN_20220330_13_19_17_Pro",
+      "source_sha256": "39226419b88a2cb1c7babf31cfdf3eec84311e12fa890014e5b1e1f2f0b7c66d",
+      "split": "train",
+      "crop_xyxy": [
+        361,
+        141,
+        1385,
+        1165
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_19_17_Pro_right",
+      "source_id": "WIN_20220330_13_19_17_Pro",
+      "source_sha256": "39226419b88a2cb1c7babf31cfdf3eec84311e12fa890014e5b1e1f2f0b7c66d",
+      "split": "train",
+      "crop_xyxy": [
+        1385,
+        226,
+        2409,
+        1250
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_12_Pro_left",
+      "source_id": "WIN_20220330_13_20_12_Pro",
+      "source_sha256": "ca027fffff3eae2ccf0985dde2666822385e8ecd4b08a3eb4c6688065468cde0",
+      "split": "train",
+      "crop_xyxy": [
+        255,
+        195,
+        1279,
+        1219
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_12_Pro_right",
+      "source_id": "WIN_20220330_13_20_12_Pro",
+      "source_sha256": "ca027fffff3eae2ccf0985dde2666822385e8ecd4b08a3eb4c6688065468cde0",
+      "split": "train",
+      "crop_xyxy": [
+        1279,
+        217,
+        2303,
+        1241
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_23_Pro_left",
+      "source_id": "WIN_20220330_13_20_23_Pro",
+      "source_sha256": "7bb84d0e893778f1fc9c1b49212fa910fee1fa0576da3f720cb212111f45a8dc",
+      "split": "test",
+      "crop_xyxy": [
+        405,
+        113,
+        1429,
+        1137
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_23_Pro_right",
+      "source_id": "WIN_20220330_13_20_23_Pro",
+      "source_sha256": "7bb84d0e893778f1fc9c1b49212fa910fee1fa0576da3f720cb212111f45a8dc",
+      "split": "test",
+      "crop_xyxy": [
+        1429,
+        129,
+        2453,
+        1153
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_35_Pro_left",
+      "source_id": "WIN_20220330_13_20_35_Pro",
+      "source_sha256": "e102d1fc3c49969f9b55d0b338499d8593242cf2a444e4348c6e4fd5e0e9f615",
+      "split": "train",
+      "crop_xyxy": [
+        388,
+        209,
+        1412,
+        1233
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_35_Pro_right",
+      "source_id": "WIN_20220330_13_20_35_Pro",
+      "source_sha256": "e102d1fc3c49969f9b55d0b338499d8593242cf2a444e4348c6e4fd5e0e9f615",
+      "split": "train",
+      "crop_xyxy": [
+        1412,
+        258,
+        2436,
+        1282
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_47_Pro_left",
+      "source_id": "WIN_20220330_13_20_47_Pro",
+      "source_sha256": "d52ef996a9269c7fd1d11459091f799bd5fff1de546887cbd0a9e7eb7a54f27e",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        272,
+        1536,
+        1296
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_47_Pro_right",
+      "source_id": "WIN_20220330_13_20_47_Pro",
+      "source_sha256": "d52ef996a9269c7fd1d11459091f799bd5fff1de546887cbd0a9e7eb7a54f27e",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        301,
+        2560,
+        1325
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_58_Pro_left",
+      "source_id": "WIN_20220330_13_20_58_Pro",
+      "source_sha256": "ceedbf6bd97d588d278b540532e5f5957e687039bf4b4181b849902ca50d0a38",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        257,
+        1536,
+        1281
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_20_58_Pro_right",
+      "source_id": "WIN_20220330_13_20_58_Pro",
+      "source_sha256": "ceedbf6bd97d588d278b540532e5f5957e687039bf4b4181b849902ca50d0a38",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        315,
+        2560,
+        1339
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_21_12_Pro_left",
+      "source_id": "WIN_20220330_13_21_12_Pro",
+      "source_sha256": "6d38d6cc39b2d07db60f842e64a45ca19f28e48c548e9ace7bb81373014bd291",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        314,
+        1536,
+        1338
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_21_12_Pro_right",
+      "source_id": "WIN_20220330_13_21_12_Pro",
+      "source_sha256": "6d38d6cc39b2d07db60f842e64a45ca19f28e48c548e9ace7bb81373014bd291",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        390,
+        2560,
+        1414
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_21_32_Pro_left",
+      "source_id": "WIN_20220330_13_21_32_Pro",
+      "source_sha256": "a934704ccc6bbd60ca6349572b3df32b417a78c067b481742ec781bc3d53b064",
+      "split": "val",
+      "crop_xyxy": [
+        512,
+        238,
+        1536,
+        1262
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_21_32_Pro_right",
+      "source_id": "WIN_20220330_13_21_32_Pro",
+      "source_sha256": "a934704ccc6bbd60ca6349572b3df32b417a78c067b481742ec781bc3d53b064",
+      "split": "val",
+      "crop_xyxy": [
+        1536,
+        264,
+        2560,
+        1288
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_11_Pro_left",
+      "source_id": "WIN_20220330_13_22_11_Pro",
+      "source_sha256": "919881c2b6ef08b7cd6f36140bdf025908427c655468080a27ff8ffa06b7e2db",
+      "split": "val",
+      "crop_xyxy": [
+        420,
+        290,
+        1444,
+        1314
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_11_Pro_right",
+      "source_id": "WIN_20220330_13_22_11_Pro",
+      "source_sha256": "919881c2b6ef08b7cd6f36140bdf025908427c655468080a27ff8ffa06b7e2db",
+      "split": "val",
+      "crop_xyxy": [
+        1444,
+        310,
+        2468,
+        1334
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_28_Pro_left",
+      "source_id": "WIN_20220330_13_22_28_Pro",
+      "source_sha256": "c7e9f805617b4eedeef4402232bd37f9cd2e6b7f1f77c5ddc88ee742d23c52c7",
+      "split": "train",
+      "crop_xyxy": [
+        273,
+        203,
+        1297,
+        1227
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_28_Pro_right",
+      "source_id": "WIN_20220330_13_22_28_Pro",
+      "source_sha256": "c7e9f805617b4eedeef4402232bd37f9cd2e6b7f1f77c5ddc88ee742d23c52c7",
+      "split": "train",
+      "crop_xyxy": [
+        1297,
+        207,
+        2321,
+        1231
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_42_Pro_left",
+      "source_id": "WIN_20220330_13_22_42_Pro",
+      "source_sha256": "16fb25d39c04ab075df2649a2e55945c3c336f058d3bc32e30e673565f455d25",
+      "split": "train",
+      "crop_xyxy": [
+        449,
+        200,
+        1473,
+        1224
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_22_42_Pro_right",
+      "source_id": "WIN_20220330_13_22_42_Pro",
+      "source_sha256": "16fb25d39c04ab075df2649a2e55945c3c336f058d3bc32e30e673565f455d25",
+      "split": "train",
+      "crop_xyxy": [
+        1473,
+        230,
+        2497,
+        1254
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_00_Pro_left",
+      "source_id": "WIN_20220330_13_28_00_Pro",
+      "source_sha256": "e25673a20ad9baeaba0ceb1160e3a7c3a35460879d70c6bd4b72d02363efec95",
+      "split": "val",
+      "crop_xyxy": [
+        216,
+        134,
+        1240,
+        1158
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_00_Pro_right",
+      "source_id": "WIN_20220330_13_28_00_Pro",
+      "source_sha256": "e25673a20ad9baeaba0ceb1160e3a7c3a35460879d70c6bd4b72d02363efec95",
+      "split": "val",
+      "crop_xyxy": [
+        1272,
+        188,
+        2296,
+        1212
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_10_Pro_left",
+      "source_id": "WIN_20220330_13_28_10_Pro",
+      "source_sha256": "cd268137822c9a87f07d9e129f8e6c01dc941457438794f7b83adfab0bc1bc51",
+      "split": "train",
+      "crop_xyxy": [
+        179,
+        129,
+        1203,
+        1153
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_10_Pro_right",
+      "source_id": "WIN_20220330_13_28_10_Pro",
+      "source_sha256": "cd268137822c9a87f07d9e129f8e6c01dc941457438794f7b83adfab0bc1bc51",
+      "split": "train",
+      "crop_xyxy": [
+        1326,
+        238,
+        2350,
+        1262
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_20_Pro_left",
+      "source_id": "WIN_20220330_13_28_20_Pro",
+      "source_sha256": "d064b245733935c654879c72a2fa243956bfdb594dca6b93cf20414652ac0fcf",
+      "split": "val",
+      "crop_xyxy": [
+        227,
+        254,
+        1251,
+        1278
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_20_Pro_right",
+      "source_id": "WIN_20220330_13_28_20_Pro",
+      "source_sha256": "d064b245733935c654879c72a2fa243956bfdb594dca6b93cf20414652ac0fcf",
+      "split": "val",
+      "crop_xyxy": [
+        1369,
+        378,
+        2393,
+        1402
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_34_Pro_left",
+      "source_id": "WIN_20220330_13_28_34_Pro",
+      "source_sha256": "e8dec9147b6f4e39370aab47d6ffa60d3e341b309d49eafaca3f72d18b61cacc",
+      "split": "test",
+      "crop_xyxy": [
+        231,
+        255,
+        1255,
+        1279
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_34_Pro_right",
+      "source_id": "WIN_20220330_13_28_34_Pro",
+      "source_sha256": "e8dec9147b6f4e39370aab47d6ffa60d3e341b309d49eafaca3f72d18b61cacc",
+      "split": "test",
+      "crop_xyxy": [
+        1413,
+        345,
+        2437,
+        1369
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_47_Pro_left",
+      "source_id": "WIN_20220330_13_28_47_Pro",
+      "source_sha256": "8ad6837e86f8bf2d67c1a8678ec4aecf21e6e5e59d1c82d277b49e78130d5e10",
+      "split": "test",
+      "crop_xyxy": [
+        140,
+        231,
+        1164,
+        1255
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_28_47_Pro_right",
+      "source_id": "WIN_20220330_13_28_47_Pro",
+      "source_sha256": "8ad6837e86f8bf2d67c1a8678ec4aecf21e6e5e59d1c82d277b49e78130d5e10",
+      "split": "test",
+      "crop_xyxy": [
+        1301,
+        336,
+        2325,
+        1360
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_03_Pro_left",
+      "source_id": "WIN_20220330_13_29_03_Pro",
+      "source_sha256": "f8a515762776676f9b5c2bbc945a6d39cee5843379ea50813df5847b0f0f10df",
+      "split": "train",
+      "crop_xyxy": [
+        174,
+        181,
+        1198,
+        1205
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_03_Pro_right",
+      "source_id": "WIN_20220330_13_29_03_Pro",
+      "source_sha256": "f8a515762776676f9b5c2bbc945a6d39cee5843379ea50813df5847b0f0f10df",
+      "split": "train",
+      "crop_xyxy": [
+        1289,
+        206,
+        2313,
+        1230
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_21_Pro_left",
+      "source_id": "WIN_20220330_13_29_21_Pro",
+      "source_sha256": "cb4461bec47b81d946afcea9bc9ee39a8f0044d4bb267b052adcdf53c65893f4",
+      "split": "test",
+      "crop_xyxy": [
+        184,
+        133,
+        1208,
+        1157
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_21_Pro_right",
+      "source_id": "WIN_20220330_13_29_21_Pro",
+      "source_sha256": "cb4461bec47b81d946afcea9bc9ee39a8f0044d4bb267b052adcdf53c65893f4",
+      "split": "test",
+      "crop_xyxy": [
+        1326,
+        316,
+        2350,
+        1340
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_35_Pro_left",
+      "source_id": "WIN_20220330_13_29_35_Pro",
+      "source_sha256": "8d7b11689126062bfac9f9ae9d804d5048920dd830a3f8bfbecd384a9f044b1e",
+      "split": "train",
+      "crop_xyxy": [
+        117,
+        216,
+        1141,
+        1240
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_35_Pro_right",
+      "source_id": "WIN_20220330_13_29_35_Pro",
+      "source_sha256": "8d7b11689126062bfac9f9ae9d804d5048920dd830a3f8bfbecd384a9f044b1e",
+      "split": "train",
+      "crop_xyxy": [
+        1183,
+        357,
+        2207,
+        1381
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_53_Pro_left",
+      "source_id": "WIN_20220330_13_29_53_Pro",
+      "source_sha256": "d049d3d8527c69de1a91eea7b81bd9c003dbc92eb4c35a05ec680aaea2220b2b",
+      "split": "val",
+      "crop_xyxy": [
+        170,
+        118,
+        1194,
+        1142
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_29_53_Pro_right",
+      "source_id": "WIN_20220330_13_29_53_Pro",
+      "source_sha256": "d049d3d8527c69de1a91eea7b81bd9c003dbc92eb4c35a05ec680aaea2220b2b",
+      "split": "val",
+      "crop_xyxy": [
+        1315,
+        212,
+        2339,
+        1236
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_30_21_Pro_left",
+      "source_id": "WIN_20220330_13_30_21_Pro",
+      "source_sha256": "b193fa08076f2afe04c2b3a84543e217012b9b79f3329646908476a4c110c1e6",
+      "split": "train",
+      "crop_xyxy": [
+        170,
+        209,
+        1194,
+        1233
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_30_21_Pro_right",
+      "source_id": "WIN_20220330_13_30_21_Pro",
+      "source_sha256": "b193fa08076f2afe04c2b3a84543e217012b9b79f3329646908476a4c110c1e6",
+      "split": "train",
+      "crop_xyxy": [
+        1240,
+        228,
+        2264,
+        1252
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_33_34_Pro_left",
+      "source_id": "WIN_20220330_13_33_34_Pro",
+      "source_sha256": "821da92112a8c22300fc793967f0247abf4ae3a54db48001e56f840eef5d4796",
+      "split": "train",
+      "crop_xyxy": [
+        25,
+        136,
+        1049,
+        1160
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_33_34_Pro_right",
+      "source_id": "WIN_20220330_13_33_34_Pro",
+      "source_sha256": "821da92112a8c22300fc793967f0247abf4ae3a54db48001e56f840eef5d4796",
+      "split": "train",
+      "crop_xyxy": [
+        1049,
+        259,
+        2073,
+        1283
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_34_05_Pro_left",
+      "source_id": "WIN_20220330_13_34_05_Pro",
+      "source_sha256": "e095f75b03db70e7ca392db6362a99924dd1e8f8b9a3360199ab7fe4227c0176",
+      "split": "test",
+      "crop_xyxy": [
+        203,
+        188,
+        1227,
+        1212
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_34_05_Pro_right",
+      "source_id": "WIN_20220330_13_34_05_Pro",
+      "source_sha256": "e095f75b03db70e7ca392db6362a99924dd1e8f8b9a3360199ab7fe4227c0176",
+      "split": "test",
+      "crop_xyxy": [
+        1227,
+        326,
+        2251,
+        1350
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_36_37_Pro_left",
+      "source_id": "WIN_20220330_13_36_37_Pro",
+      "source_sha256": "2b8177dbca351f263dedfa3086d91d660c54c68b356b8e28a5150ab0e5488e1c",
+      "split": "train",
+      "crop_xyxy": [
+        296,
+        132,
+        1320,
+        1156
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_36_37_Pro_right",
+      "source_id": "WIN_20220330_13_36_37_Pro",
+      "source_sha256": "2b8177dbca351f263dedfa3086d91d660c54c68b356b8e28a5150ab0e5488e1c",
+      "split": "train",
+      "crop_xyxy": [
+        1320,
+        252,
+        2344,
+        1276
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_02_Pro_left",
+      "source_id": "WIN_20220330_13_37_02_Pro",
+      "source_sha256": "1243177203153ef8f427f47d9fe79cc46b7dd98d12ceb61278eb5298a3361932",
+      "split": "train",
+      "crop_xyxy": [
+        192,
+        154,
+        1216,
+        1178
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_02_Pro_right",
+      "source_id": "WIN_20220330_13_37_02_Pro",
+      "source_sha256": "1243177203153ef8f427f47d9fe79cc46b7dd98d12ceb61278eb5298a3361932",
+      "split": "train",
+      "crop_xyxy": [
+        1216,
+        264,
+        2240,
+        1288
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_25_Pro_left",
+      "source_id": "WIN_20220330_13_37_25_Pro",
+      "source_sha256": "a4490e4c795d5f79f3dd7c714d930173bf8c1be4ed50a494e9561aa293cd824c",
+      "split": "train",
+      "crop_xyxy": [
+        328,
+        126,
+        1352,
+        1150
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_25_Pro_right",
+      "source_id": "WIN_20220330_13_37_25_Pro",
+      "source_sha256": "a4490e4c795d5f79f3dd7c714d930173bf8c1be4ed50a494e9561aa293cd824c",
+      "split": "train",
+      "crop_xyxy": [
+        1352,
+        208,
+        2376,
+        1232
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_48_Pro_left",
+      "source_id": "WIN_20220330_13_37_48_Pro",
+      "source_sha256": "f685ebaa8942ea39bf8e947af1c403cd3c1d54916cd74e627d39874cb37308b3",
+      "split": "test",
+      "crop_xyxy": [
+        272,
+        135,
+        1296,
+        1159
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_37_48_Pro_right",
+      "source_id": "WIN_20220330_13_37_48_Pro",
+      "source_sha256": "f685ebaa8942ea39bf8e947af1c403cd3c1d54916cd74e627d39874cb37308b3",
+      "split": "test",
+      "crop_xyxy": [
+        1296,
+        268,
+        2320,
+        1292
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_01_Pro_left",
+      "source_id": "WIN_20220330_13_38_01_Pro",
+      "source_sha256": "fe3d89b4b35f0fc0b7add714e4df26587b1885bfc8738f8fea7223d77d92a011",
+      "split": "train",
+      "crop_xyxy": [
+        480,
+        143,
+        1504,
+        1167
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_01_Pro_right",
+      "source_id": "WIN_20220330_13_38_01_Pro",
+      "source_sha256": "fe3d89b4b35f0fc0b7add714e4df26587b1885bfc8738f8fea7223d77d92a011",
+      "split": "train",
+      "crop_xyxy": [
+        1504,
+        264,
+        2528,
+        1288
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_14_Pro_left",
+      "source_id": "WIN_20220330_13_38_14_Pro",
+      "source_sha256": "afbc55e2aa837be8215e800622fbf12431660dcbb10673073e858d5afcbe2ffb",
+      "split": "train",
+      "crop_xyxy": [
+        440,
+        159,
+        1464,
+        1183
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_14_Pro_right",
+      "source_id": "WIN_20220330_13_38_14_Pro",
+      "source_sha256": "afbc55e2aa837be8215e800622fbf12431660dcbb10673073e858d5afcbe2ffb",
+      "split": "train",
+      "crop_xyxy": [
+        1464,
+        250,
+        2488,
+        1274
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_24_Pro_left",
+      "source_id": "WIN_20220330_13_38_24_Pro",
+      "source_sha256": "48e654947e96e503df8573e51703e88aaef61127e695bfa9ed3eeb7d1f8e7d49",
+      "split": "train",
+      "crop_xyxy": [
+        291,
+        174,
+        1315,
+        1198
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_24_Pro_right",
+      "source_id": "WIN_20220330_13_38_24_Pro",
+      "source_sha256": "48e654947e96e503df8573e51703e88aaef61127e695bfa9ed3eeb7d1f8e7d49",
+      "split": "train",
+      "crop_xyxy": [
+        1315,
+        270,
+        2339,
+        1294
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_35_Pro_left",
+      "source_id": "WIN_20220330_13_38_35_Pro",
+      "source_sha256": "06e6b7551843cf015b629a0d450ac101b73a9d1dc36b9cbd3f349e0f7ad61a25",
+      "split": "val",
+      "crop_xyxy": [
+        451,
+        230,
+        1475,
+        1254
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_38_35_Pro_right",
+      "source_id": "WIN_20220330_13_38_35_Pro",
+      "source_sha256": "06e6b7551843cf015b629a0d450ac101b73a9d1dc36b9cbd3f349e0f7ad61a25",
+      "split": "val",
+      "crop_xyxy": [
+        1475,
+        298,
+        2499,
+        1322
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_39_16_Pro_left",
+      "source_id": "WIN_20220330_13_39_16_Pro",
+      "source_sha256": "c4b4ff6ece61be81dab606ff5fc7848215991c238337363e5d63ddd8559df6f3",
+      "split": "val",
+      "crop_xyxy": [
+        132,
+        174,
+        1156,
+        1198
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_39_16_Pro_right",
+      "source_id": "WIN_20220330_13_39_16_Pro",
+      "source_sha256": "c4b4ff6ece61be81dab606ff5fc7848215991c238337363e5d63ddd8559df6f3",
+      "split": "val",
+      "crop_xyxy": [
+        1156,
+        213,
+        2180,
+        1237
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_39_31_Pro_left",
+      "source_id": "WIN_20220330_13_39_31_Pro",
+      "source_sha256": "ff8dc0006e4f834767521ad5f71dd4ac9b9ab9e654a5d94d62159876f313242f",
+      "split": "test",
+      "crop_xyxy": [
+        308,
+        167,
+        1332,
+        1191
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_39_31_Pro_right",
+      "source_id": "WIN_20220330_13_39_31_Pro",
+      "source_sha256": "ff8dc0006e4f834767521ad5f71dd4ac9b9ab9e654a5d94d62159876f313242f",
+      "split": "test",
+      "crop_xyxy": [
+        1332,
+        282,
+        2356,
+        1306
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_20_Pro_left",
+      "source_id": "WIN_20220330_13_40_20_Pro",
+      "source_sha256": "664829fadaaa3748bdf350b0bdd7e6fef11cb66faae63d7a6928006e28769a0e",
+      "split": "train",
+      "crop_xyxy": [
+        262,
+        190,
+        1286,
+        1214
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_20_Pro_right",
+      "source_id": "WIN_20220330_13_40_20_Pro",
+      "source_sha256": "664829fadaaa3748bdf350b0bdd7e6fef11cb66faae63d7a6928006e28769a0e",
+      "split": "train",
+      "crop_xyxy": [
+        1286,
+        270,
+        2310,
+        1294
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_35_Pro_left",
+      "source_id": "WIN_20220330_13_40_35_Pro",
+      "source_sha256": "c9824c3ccd1aa74a3f0c91443887d6496180f69854eaebe5f85da2872e4e065c",
+      "split": "train",
+      "crop_xyxy": [
+        353,
+        184,
+        1377,
+        1208
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_35_Pro_right",
+      "source_id": "WIN_20220330_13_40_35_Pro",
+      "source_sha256": "c9824c3ccd1aa74a3f0c91443887d6496180f69854eaebe5f85da2872e4e065c",
+      "split": "train",
+      "crop_xyxy": [
+        1377,
+        284,
+        2401,
+        1308
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_52_Pro_left",
+      "source_id": "WIN_20220330_13_40_52_Pro",
+      "source_sha256": "ac601b8d0e760cdf9e95fb7eb6a6c9635aeba7627e84de9d71c8c55a68064d11",
+      "split": "train",
+      "crop_xyxy": [
+        377,
+        250,
+        1401,
+        1274
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_40_52_Pro_right",
+      "source_id": "WIN_20220330_13_40_52_Pro",
+      "source_sha256": "ac601b8d0e760cdf9e95fb7eb6a6c9635aeba7627e84de9d71c8c55a68064d11",
+      "split": "train",
+      "crop_xyxy": [
+        1401,
+        311,
+        2425,
+        1335
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_05_Pro_left",
+      "source_id": "WIN_20220330_13_41_05_Pro",
+      "source_sha256": "b9ec70335ed76dc0e82c51344833e8b9506a0c109b34fe5ca34a29c821864bae",
+      "split": "train",
+      "crop_xyxy": [
+        366,
+        316,
+        1390,
+        1340
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_05_Pro_right",
+      "source_id": "WIN_20220330_13_41_05_Pro",
+      "source_sha256": "b9ec70335ed76dc0e82c51344833e8b9506a0c109b34fe5ca34a29c821864bae",
+      "split": "train",
+      "crop_xyxy": [
+        1390,
+        400,
+        2414,
+        1424
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_16_Pro_left",
+      "source_id": "WIN_20220330_13_41_16_Pro",
+      "source_sha256": "3a0357a1dcac4959399eba076a7c12e6d5eeb4390c11b21dcd2384803cfeff15",
+      "split": "train",
+      "crop_xyxy": [
+        327,
+        212,
+        1351,
+        1236
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_16_Pro_right",
+      "source_id": "WIN_20220330_13_41_16_Pro",
+      "source_sha256": "3a0357a1dcac4959399eba076a7c12e6d5eeb4390c11b21dcd2384803cfeff15",
+      "split": "train",
+      "crop_xyxy": [
+        1351,
+        279,
+        2375,
+        1303
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_28_Pro_left",
+      "source_id": "WIN_20220330_13_41_28_Pro",
+      "source_sha256": "68da99fcad7ee2ffabbb3e989387193b6e863d1016bb26d0fb18855f39bed7d1",
+      "split": "train",
+      "crop_xyxy": [
+        233,
+        213,
+        1257,
+        1237
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_28_Pro_right",
+      "source_id": "WIN_20220330_13_41_28_Pro",
+      "source_sha256": "68da99fcad7ee2ffabbb3e989387193b6e863d1016bb26d0fb18855f39bed7d1",
+      "split": "train",
+      "crop_xyxy": [
+        1257,
+        282,
+        2281,
+        1306
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_43_Pro_left",
+      "source_id": "WIN_20220330_13_41_43_Pro",
+      "source_sha256": "253f67d46e57199269e0586b2e8973ea53cd515cb841aa275cce27b6c6b7a9c6",
+      "split": "train",
+      "crop_xyxy": [
+        153,
+        89,
+        1177,
+        1113
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_41_43_Pro_right",
+      "source_id": "WIN_20220330_13_41_43_Pro",
+      "source_sha256": "253f67d46e57199269e0586b2e8973ea53cd515cb841aa275cce27b6c6b7a9c6",
+      "split": "train",
+      "crop_xyxy": [
+        1177,
+        150,
+        2201,
+        1174
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_42_25_Pro_left",
+      "source_id": "WIN_20220330_13_42_25_Pro",
+      "source_sha256": "bdba3f30ff55d1a2f6191bc07653b3f2803585668637054debc0e7bcebc5a824",
+      "split": "train",
+      "crop_xyxy": [
+        239,
+        239,
+        1263,
+        1263
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_42_25_Pro_right",
+      "source_id": "WIN_20220330_13_42_25_Pro",
+      "source_sha256": "bdba3f30ff55d1a2f6191bc07653b3f2803585668637054debc0e7bcebc5a824",
+      "split": "train",
+      "crop_xyxy": [
+        1263,
+        358,
+        2287,
+        1382
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_20_Pro_left",
+      "source_id": "WIN_20220330_13_48_20_Pro",
+      "source_sha256": "67d8b0a8eb05ad66e4aa1d211e1405b4b67a12c48c4cc0e50ad217fb3bcb8de2",
+      "split": "val",
+      "crop_xyxy": [
+        269,
+        123,
+        1293,
+        1147
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_20_Pro_right",
+      "source_id": "WIN_20220330_13_48_20_Pro",
+      "source_sha256": "67d8b0a8eb05ad66e4aa1d211e1405b4b67a12c48c4cc0e50ad217fb3bcb8de2",
+      "split": "val",
+      "crop_xyxy": [
+        1293,
+        267,
+        2317,
+        1291
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_31_Pro_left",
+      "source_id": "WIN_20220330_13_48_31_Pro",
+      "source_sha256": "d65134d9421b5617f394db8fd95c20bcd3dbeed060974f608a93aec09c836968",
+      "split": "train",
+      "crop_xyxy": [
+        267,
+        143,
+        1291,
+        1167
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_31_Pro_right",
+      "source_id": "WIN_20220330_13_48_31_Pro",
+      "source_sha256": "d65134d9421b5617f394db8fd95c20bcd3dbeed060974f608a93aec09c836968",
+      "split": "train",
+      "crop_xyxy": [
+        1319,
+        259,
+        2343,
+        1283
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_56_Pro_left",
+      "source_id": "WIN_20220330_13_48_56_Pro",
+      "source_sha256": "18ef468420a3d675215b52d01e32fc2ee8986e70bf3073fcca326b318f3b24d7",
+      "split": "train",
+      "crop_xyxy": [
+        283,
+        123,
+        1307,
+        1147
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_48_56_Pro_right",
+      "source_id": "WIN_20220330_13_48_56_Pro",
+      "source_sha256": "18ef468420a3d675215b52d01e32fc2ee8986e70bf3073fcca326b318f3b24d7",
+      "split": "train",
+      "crop_xyxy": [
+        1415,
+        263,
+        2439,
+        1287
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_05_Pro_left",
+      "source_id": "WIN_20220330_13_49_05_Pro",
+      "source_sha256": "1df8d2323344320ac5043efd8be8d3c58e08e86573ac5feb649b29cbd213155f",
+      "split": "train",
+      "crop_xyxy": [
+        281,
+        183,
+        1305,
+        1207
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_05_Pro_right",
+      "source_id": "WIN_20220330_13_49_05_Pro",
+      "source_sha256": "1df8d2323344320ac5043efd8be8d3c58e08e86573ac5feb649b29cbd213155f",
+      "split": "train",
+      "crop_xyxy": [
+        1403,
+        314,
+        2427,
+        1338
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_24_Pro_left",
+      "source_id": "WIN_20220330_13_49_24_Pro",
+      "source_sha256": "3953a21940028b080e1ed0a8b1de41ee7a214ab2e66a929b5d75afd9fe2cb4d6",
+      "split": "train",
+      "crop_xyxy": [
+        241,
+        168,
+        1265,
+        1192
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_24_Pro_right",
+      "source_id": "WIN_20220330_13_49_24_Pro",
+      "source_sha256": "3953a21940028b080e1ed0a8b1de41ee7a214ab2e66a929b5d75afd9fe2cb4d6",
+      "split": "train",
+      "crop_xyxy": [
+        1348,
+        326,
+        2372,
+        1350
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_35_Pro_left",
+      "source_id": "WIN_20220330_13_49_35_Pro",
+      "source_sha256": "ce13df6140cab3fb135125e1a46bda5413ac8289a055987d5cbf96f58afe4681",
+      "split": "train",
+      "crop_xyxy": [
+        206,
+        154,
+        1230,
+        1178
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_35_Pro_right",
+      "source_id": "WIN_20220330_13_49_35_Pro",
+      "source_sha256": "ce13df6140cab3fb135125e1a46bda5413ac8289a055987d5cbf96f58afe4681",
+      "split": "train",
+      "crop_xyxy": [
+        1286,
+        276,
+        2310,
+        1300
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_50_Pro_left",
+      "source_id": "WIN_20220330_13_49_50_Pro",
+      "source_sha256": "a012f600e78d334998a6917ab945ac8b550cc6bdd78b735ebf80293ec26ecc7c",
+      "split": "test",
+      "crop_xyxy": [
+        191,
+        176,
+        1215,
+        1200
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_49_50_Pro_right",
+      "source_id": "WIN_20220330_13_49_50_Pro",
+      "source_sha256": "a012f600e78d334998a6917ab945ac8b550cc6bdd78b735ebf80293ec26ecc7c",
+      "split": "test",
+      "crop_xyxy": [
+        1294,
+        277,
+        2318,
+        1301
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_04_Pro_left",
+      "source_id": "WIN_20220330_13_50_04_Pro",
+      "source_sha256": "824042b3f6ab0fded0c93884243c39472e27efd4577a24b2817964d3e27c9ff2",
+      "split": "train",
+      "crop_xyxy": [
+        224,
+        183,
+        1248,
+        1207
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_04_Pro_right",
+      "source_id": "WIN_20220330_13_50_04_Pro",
+      "source_sha256": "824042b3f6ab0fded0c93884243c39472e27efd4577a24b2817964d3e27c9ff2",
+      "split": "train",
+      "crop_xyxy": [
+        1313,
+        280,
+        2337,
+        1304
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_17_Pro_left",
+      "source_id": "WIN_20220330_13_50_17_Pro",
+      "source_sha256": "766d6aa7c963aa07a861640fce4da3fbcd8d31458fbc2c8e4242296ba1643a15",
+      "split": "val",
+      "crop_xyxy": [
+        182,
+        246,
+        1206,
+        1270
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_17_Pro_right",
+      "source_id": "WIN_20220330_13_50_17_Pro",
+      "source_sha256": "766d6aa7c963aa07a861640fce4da3fbcd8d31458fbc2c8e4242296ba1643a15",
+      "split": "val",
+      "crop_xyxy": [
+        1308,
+        400,
+        2332,
+        1424
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_38_Pro_left",
+      "source_id": "WIN_20220330_13_50_38_Pro",
+      "source_sha256": "e34c06e6973ccaa3c89a63fb04d37d594ecc4a521abaa5dabd4f2e4566419390",
+      "split": "val",
+      "crop_xyxy": [
+        387,
+        29,
+        1411,
+        1053
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_13_50_38_Pro_right",
+      "source_id": "WIN_20220330_13_50_38_Pro",
+      "source_sha256": "e34c06e6973ccaa3c89a63fb04d37d594ecc4a521abaa5dabd4f2e4566419390",
+      "split": "val",
+      "crop_xyxy": [
+        1411,
+        132,
+        2435,
+        1156
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_15_56_06_Pro_left",
+      "source_id": "WIN_20220330_15_56_06_Pro",
+      "source_sha256": "8ff94053ccbcdff7b3604feec1e617c36303696faf46d54a60d163c240673f66",
+      "split": "train",
+      "crop_xyxy": [
+        97,
+        65,
+        1121,
+        1089
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_15_56_06_Pro_right",
+      "source_id": "WIN_20220330_15_56_06_Pro",
+      "source_sha256": "8ff94053ccbcdff7b3604feec1e617c36303696faf46d54a60d163c240673f66",
+      "split": "train",
+      "crop_xyxy": [
+        1121,
+        133,
+        2145,
+        1157
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_15_56_21_Pro_left",
+      "source_id": "WIN_20220330_15_56_21_Pro",
+      "source_sha256": "db28def9ef564b5d49a937884cd068ec42ea01dd2b4fd49199d88af79aa967a6",
+      "split": "train",
+      "crop_xyxy": [
+        324,
+        73,
+        1348,
+        1097
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_15_56_21_Pro_right",
+      "source_id": "WIN_20220330_15_56_21_Pro",
+      "source_sha256": "db28def9ef564b5d49a937884cd068ec42ea01dd2b4fd49199d88af79aa967a6",
+      "split": "train",
+      "crop_xyxy": [
+        1348,
+        219,
+        2372,
+        1243
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_01_25_Pro_left",
+      "source_id": "WIN_20220330_16_01_25_Pro",
+      "source_sha256": "f2aef6159b1588b195ec2bd6619aeafd66fe96579fbd6ec2a31516523504b2c3",
+      "split": "train",
+      "crop_xyxy": [
+        51,
+        42,
+        1075,
+        1066
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_01_25_Pro_right",
+      "source_id": "WIN_20220330_16_01_25_Pro",
+      "source_sha256": "f2aef6159b1588b195ec2bd6619aeafd66fe96579fbd6ec2a31516523504b2c3",
+      "split": "train",
+      "crop_xyxy": [
+        1075,
+        123,
+        2099,
+        1147
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_01_50_Pro_left",
+      "source_id": "WIN_20220330_16_01_50_Pro",
+      "source_sha256": "9551ec4bbf6329def389a74a36e5e302a6587c5458d0b0190c762195fa592571",
+      "split": "train",
+      "crop_xyxy": [
+        80,
+        123,
+        1104,
+        1147
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_01_50_Pro_right",
+      "source_id": "WIN_20220330_16_01_50_Pro",
+      "source_sha256": "9551ec4bbf6329def389a74a36e5e302a6587c5458d0b0190c762195fa592571",
+      "split": "train",
+      "crop_xyxy": [
+        1104,
+        255,
+        2128,
+        1279
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_04_Pro_left",
+      "source_id": "WIN_20220330_16_02_04_Pro",
+      "source_sha256": "3b151fd7cc8fc2f0efffa52a907aba5a8595adf6be99cdf4b7f6bb49256dd84f",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        45,
+        1024,
+        1069
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_04_Pro_right",
+      "source_id": "WIN_20220330_16_02_04_Pro",
+      "source_sha256": "3b151fd7cc8fc2f0efffa52a907aba5a8595adf6be99cdf4b7f6bb49256dd84f",
+      "split": "train",
+      "crop_xyxy": [
+        1024,
+        191,
+        2048,
+        1215
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_29_Pro_left",
+      "source_id": "WIN_20220330_16_02_29_Pro",
+      "source_sha256": "856b85364b030537c81683a767c0dae9b6be37c08e32fbeffbd826b6d4d74a41",
+      "split": "train",
+      "crop_xyxy": [
+        215,
+        122,
+        1239,
+        1146
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_29_Pro_right",
+      "source_id": "WIN_20220330_16_02_29_Pro",
+      "source_sha256": "856b85364b030537c81683a767c0dae9b6be37c08e32fbeffbd826b6d4d74a41",
+      "split": "train",
+      "crop_xyxy": [
+        1239,
+        199,
+        2263,
+        1223
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_46_Pro_left",
+      "source_id": "WIN_20220330_16_02_46_Pro",
+      "source_sha256": "93589aab013f8096dd86d88855c65ed736a413ed130c0033e69a4d5069e2fa17",
+      "split": "train",
+      "crop_xyxy": [
+        195,
+        103,
+        1219,
+        1127
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_46_Pro_right",
+      "source_id": "WIN_20220330_16_02_46_Pro",
+      "source_sha256": "93589aab013f8096dd86d88855c65ed736a413ed130c0033e69a4d5069e2fa17",
+      "split": "train",
+      "crop_xyxy": [
+        1219,
+        219,
+        2243,
+        1243
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_56_Pro_left",
+      "source_id": "WIN_20220330_16_02_56_Pro",
+      "source_sha256": "e7fb60873fa50a947d2084c81e383dbf3018bb50e755e605729bd6711d576730",
+      "split": "train",
+      "crop_xyxy": [
+        264,
+        25,
+        1288,
+        1049
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_02_56_Pro_right",
+      "source_id": "WIN_20220330_16_02_56_Pro",
+      "source_sha256": "e7fb60873fa50a947d2084c81e383dbf3018bb50e755e605729bd6711d576730",
+      "split": "train",
+      "crop_xyxy": [
+        1288,
+        227,
+        2312,
+        1251
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_03_53_Pro_left",
+      "source_id": "WIN_20220330_16_03_53_Pro",
+      "source_sha256": "8974081a49650f23ec0d578e593188cd8cd8a3588af5ecf7eec16793b163474f",
+      "split": "val",
+      "crop_xyxy": [
+        1,
+        198,
+        1025,
+        1222
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_03_53_Pro_right",
+      "source_id": "WIN_20220330_16_03_53_Pro",
+      "source_sha256": "8974081a49650f23ec0d578e593188cd8cd8a3588af5ecf7eec16793b163474f",
+      "split": "val",
+      "crop_xyxy": [
+        1025,
+        234,
+        2049,
+        1258
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_06_Pro_left",
+      "source_id": "WIN_20220330_16_04_06_Pro",
+      "source_sha256": "912df59cf7304f5ca9edb1c1d713000e636a24b64b187c5dd315328f7bb77cbb",
+      "split": "train",
+      "crop_xyxy": [
+        188,
+        0,
+        1212,
+        1024
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_06_Pro_right",
+      "source_id": "WIN_20220330_16_04_06_Pro",
+      "source_sha256": "912df59cf7304f5ca9edb1c1d713000e636a24b64b187c5dd315328f7bb77cbb",
+      "split": "train",
+      "crop_xyxy": [
+        1212,
+        136,
+        2236,
+        1160
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_28_Pro_left",
+      "source_id": "WIN_20220330_16_04_28_Pro",
+      "source_sha256": "d7635ac99440b6dfb5b64efcc31cff13b5eb28ec3179f3aa0f0cafce6cba5c2c",
+      "split": "val",
+      "crop_xyxy": [
+        311,
+        224,
+        1335,
+        1248
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_28_Pro_right",
+      "source_id": "WIN_20220330_16_04_28_Pro",
+      "source_sha256": "d7635ac99440b6dfb5b64efcc31cff13b5eb28ec3179f3aa0f0cafce6cba5c2c",
+      "split": "val",
+      "crop_xyxy": [
+        1335,
+        260,
+        2359,
+        1284
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_39_Pro_left",
+      "source_id": "WIN_20220330_16_04_39_Pro",
+      "source_sha256": "ad580bedbfac981c9f205eb754d6615157284f971bb2bbd376a19aa5870ab637",
+      "split": "val",
+      "crop_xyxy": [
+        455,
+        199,
+        1479,
+        1223
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_39_Pro_right",
+      "source_id": "WIN_20220330_16_04_39_Pro",
+      "source_sha256": "ad580bedbfac981c9f205eb754d6615157284f971bb2bbd376a19aa5870ab637",
+      "split": "val",
+      "crop_xyxy": [
+        1479,
+        313,
+        2503,
+        1337
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_53_Pro_left",
+      "source_id": "WIN_20220330_16_04_53_Pro",
+      "source_sha256": "e88b1236d5c8b059ecdca01e44de3b29471a2b380d62e530a65fd25986e47401",
+      "split": "train",
+      "crop_xyxy": [
+        274,
+        86,
+        1298,
+        1110
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_04_53_Pro_right",
+      "source_id": "WIN_20220330_16_04_53_Pro",
+      "source_sha256": "e88b1236d5c8b059ecdca01e44de3b29471a2b380d62e530a65fd25986e47401",
+      "split": "train",
+      "crop_xyxy": [
+        1298,
+        178,
+        2322,
+        1202
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_02_Pro_left",
+      "source_id": "WIN_20220330_16_05_02_Pro",
+      "source_sha256": "0961d5110efb46ff92d3efa17247c3c767c52a93d1b274e320f72e9c25949874",
+      "split": "train",
+      "crop_xyxy": [
+        312,
+        52,
+        1336,
+        1076
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_02_Pro_right",
+      "source_id": "WIN_20220330_16_05_02_Pro",
+      "source_sha256": "0961d5110efb46ff92d3efa17247c3c767c52a93d1b274e320f72e9c25949874",
+      "split": "train",
+      "crop_xyxy": [
+        1336,
+        162,
+        2360,
+        1186
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_11_Pro_left",
+      "source_id": "WIN_20220330_16_05_11_Pro",
+      "source_sha256": "e8a87a662277990141a1558143a0fb2164ca198d9e100b5968e48bd8f4431065",
+      "split": "test",
+      "crop_xyxy": [
+        371,
+        176,
+        1395,
+        1200
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_11_Pro_right",
+      "source_id": "WIN_20220330_16_05_11_Pro",
+      "source_sha256": "e8a87a662277990141a1558143a0fb2164ca198d9e100b5968e48bd8f4431065",
+      "split": "test",
+      "crop_xyxy": [
+        1395,
+        251,
+        2419,
+        1275
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_22_Pro_left",
+      "source_id": "WIN_20220330_16_05_22_Pro",
+      "source_sha256": "d4cc0b7b74ade063084af6c8dcc1ea0ea6a39c33961148e28b856d0d7836caa3",
+      "split": "val",
+      "crop_xyxy": [
+        512,
+        48,
+        1536,
+        1072
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_22_Pro_right",
+      "source_id": "WIN_20220330_16_05_22_Pro",
+      "source_sha256": "d4cc0b7b74ade063084af6c8dcc1ea0ea6a39c33961148e28b856d0d7836caa3",
+      "split": "val",
+      "crop_xyxy": [
+        1536,
+        248,
+        2560,
+        1272
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_34_Pro_left",
+      "source_id": "WIN_20220330_16_05_34_Pro",
+      "source_sha256": "3ba6d2799481533db9d906f94321fb67d462e6d91b717080313a7d958e8bb965",
+      "split": "train",
+      "crop_xyxy": [
+        315,
+        0,
+        1339,
+        1024
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_34_Pro_right",
+      "source_id": "WIN_20220330_16_05_34_Pro",
+      "source_sha256": "3ba6d2799481533db9d906f94321fb67d462e6d91b717080313a7d958e8bb965",
+      "split": "train",
+      "crop_xyxy": [
+        1339,
+        138,
+        2363,
+        1162
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_47_Pro_left",
+      "source_id": "WIN_20220330_16_05_47_Pro",
+      "source_sha256": "fdd641c2212c6cbdb97d052054c3badc6d57e39cf9db2d708cd864d86d6d15a5",
+      "split": "test",
+      "crop_xyxy": [
+        437,
+        185,
+        1461,
+        1209
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_05_47_Pro_right",
+      "source_id": "WIN_20220330_16_05_47_Pro",
+      "source_sha256": "fdd641c2212c6cbdb97d052054c3badc6d57e39cf9db2d708cd864d86d6d15a5",
+      "split": "test",
+      "crop_xyxy": [
+        1461,
+        285,
+        2485,
+        1309
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_06_05_Pro_left",
+      "source_id": "WIN_20220330_16_06_05_Pro",
+      "source_sha256": "e6d168b80e2d630d78cfbfe1fab1c2ca90116046dbe20815c5cf8395c4e5efe0",
+      "split": "train",
+      "crop_xyxy": [
+        335,
+        209,
+        1359,
+        1233
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_06_05_Pro_right",
+      "source_id": "WIN_20220330_16_06_05_Pro",
+      "source_sha256": "e6d168b80e2d630d78cfbfe1fab1c2ca90116046dbe20815c5cf8395c4e5efe0",
+      "split": "train",
+      "crop_xyxy": [
+        1359,
+        229,
+        2383,
+        1253
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_06_21_Pro_left",
+      "source_id": "WIN_20220330_16_06_21_Pro",
+      "source_sha256": "a4a214ac18c4af11c32cfa90598841b8b96b8dff722cba8cf470339e80ab7b65",
+      "split": "train",
+      "crop_xyxy": [
+        381,
+        100,
+        1405,
+        1124
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_06_21_Pro_right",
+      "source_id": "WIN_20220330_16_06_21_Pro",
+      "source_sha256": "a4a214ac18c4af11c32cfa90598841b8b96b8dff722cba8cf470339e80ab7b65",
+      "split": "train",
+      "crop_xyxy": [
+        1405,
+        201,
+        2429,
+        1225
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_04_Pro_left",
+      "source_id": "WIN_20220330_16_07_04_Pro",
+      "source_sha256": "b5967b21b57ee4f5f33b862be4674169191e5932f7301db9fe642326b2489d73",
+      "split": "train",
+      "crop_xyxy": [
+        47,
+        147,
+        1071,
+        1171
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_04_Pro_right",
+      "source_id": "WIN_20220330_16_07_04_Pro",
+      "source_sha256": "b5967b21b57ee4f5f33b862be4674169191e5932f7301db9fe642326b2489d73",
+      "split": "train",
+      "crop_xyxy": [
+        1071,
+        197,
+        2095,
+        1221
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_17_Pro_left",
+      "source_id": "WIN_20220330_16_07_17_Pro",
+      "source_sha256": "282a99532596426ad88cf56726f7a410034224b5b113fbeeea00f40e5fccae25",
+      "split": "train",
+      "crop_xyxy": [
+        326,
+        228,
+        1350,
+        1252
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_17_Pro_right",
+      "source_id": "WIN_20220330_16_07_17_Pro",
+      "source_sha256": "282a99532596426ad88cf56726f7a410034224b5b113fbeeea00f40e5fccae25",
+      "split": "train",
+      "crop_xyxy": [
+        1350,
+        198,
+        2374,
+        1222
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_29_Pro_left",
+      "source_id": "WIN_20220330_16_07_29_Pro",
+      "source_sha256": "b85e7990991f4748ac16a04b4a3b4ac03e193267d179870683225e1f19e7f8c8",
+      "split": "train",
+      "crop_xyxy": [
+        307,
+        202,
+        1331,
+        1226
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_29_Pro_right",
+      "source_id": "WIN_20220330_16_07_29_Pro",
+      "source_sha256": "b85e7990991f4748ac16a04b4a3b4ac03e193267d179870683225e1f19e7f8c8",
+      "split": "train",
+      "crop_xyxy": [
+        1331,
+        293,
+        2355,
+        1317
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_40_Pro_left",
+      "source_id": "WIN_20220330_16_07_40_Pro",
+      "source_sha256": "d824c25402c15534f983c857eaa7973ca04bff9b7d59bb43ad1487dc7b93c0a1",
+      "split": "train",
+      "crop_xyxy": [
+        208,
+        100,
+        1232,
+        1124
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_40_Pro_right",
+      "source_id": "WIN_20220330_16_07_40_Pro",
+      "source_sha256": "d824c25402c15534f983c857eaa7973ca04bff9b7d59bb43ad1487dc7b93c0a1",
+      "split": "train",
+      "crop_xyxy": [
+        1232,
+        107,
+        2256,
+        1131
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_49_Pro_left",
+      "source_id": "WIN_20220330_16_07_49_Pro",
+      "source_sha256": "6c98567836ba5db92b4482268981a02ee8cc10b0c440fe759edb9d12fe3ee6b6",
+      "split": "val",
+      "crop_xyxy": [
+        116,
+        39,
+        1140,
+        1063
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_49_Pro_right",
+      "source_id": "WIN_20220330_16_07_49_Pro",
+      "source_sha256": "6c98567836ba5db92b4482268981a02ee8cc10b0c440fe759edb9d12fe3ee6b6",
+      "split": "val",
+      "crop_xyxy": [
+        1140,
+        63,
+        2164,
+        1087
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_58_Pro_left",
+      "source_id": "WIN_20220330_16_07_58_Pro",
+      "source_sha256": "eb07892f0439813852c4d08c6bb42260f79008ad7fc317ac5b4069381313e744",
+      "split": "train",
+      "crop_xyxy": [
+        11,
+        133,
+        1035,
+        1157
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_07_58_Pro_right",
+      "source_id": "WIN_20220330_16_07_58_Pro",
+      "source_sha256": "eb07892f0439813852c4d08c6bb42260f79008ad7fc317ac5b4069381313e744",
+      "split": "train",
+      "crop_xyxy": [
+        1035,
+        136,
+        2059,
+        1160
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_08_11_Pro_left",
+      "source_id": "WIN_20220330_16_08_11_Pro",
+      "source_sha256": "24edc04f833e8c851a05e3ccb4eb78e9855b42f75da426719e29ce59663fc1c8",
+      "split": "test",
+      "crop_xyxy": [
+        0,
+        178,
+        1024,
+        1202
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_08_11_Pro_right",
+      "source_id": "WIN_20220330_16_08_11_Pro",
+      "source_sha256": "24edc04f833e8c851a05e3ccb4eb78e9855b42f75da426719e29ce59663fc1c8",
+      "split": "test",
+      "crop_xyxy": [
+        1024,
+        185,
+        2048,
+        1209
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_08_43_Pro_left",
+      "source_id": "WIN_20220330_16_08_43_Pro",
+      "source_sha256": "4da17331f976a57a3128414b430141c6dd1ea25fdb2c6e40140df933a3b5d3a2",
+      "split": "train",
+      "crop_xyxy": [
+        103,
+        57,
+        1127,
+        1081
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_08_43_Pro_right",
+      "source_id": "WIN_20220330_16_08_43_Pro",
+      "source_sha256": "4da17331f976a57a3128414b430141c6dd1ea25fdb2c6e40140df933a3b5d3a2",
+      "split": "train",
+      "crop_xyxy": [
+        1127,
+        99,
+        2151,
+        1123
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_09_05_Pro_left",
+      "source_id": "WIN_20220330_16_09_05_Pro",
+      "source_sha256": "4de657e3d088e7d85d50a13e0cdfec0cebcf28432ad71bc60651b32da8d32e0c",
+      "split": "val",
+      "crop_xyxy": [
+        269,
+        153,
+        1293,
+        1177
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_09_05_Pro_right",
+      "source_id": "WIN_20220330_16_09_05_Pro",
+      "source_sha256": "4de657e3d088e7d85d50a13e0cdfec0cebcf28432ad71bc60651b32da8d32e0c",
+      "split": "val",
+      "crop_xyxy": [
+        1293,
+        229,
+        2317,
+        1253
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_09_40_Pro_left",
+      "source_id": "WIN_20220330_16_09_40_Pro",
+      "source_sha256": "63921d44fda707c50179fbb58e5098a89b99ccf2b32d627c6bdab299ddf2fc87",
+      "split": "train",
+      "crop_xyxy": [
+        83,
+        48,
+        1107,
+        1072
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_09_40_Pro_right",
+      "source_id": "WIN_20220330_16_09_40_Pro",
+      "source_sha256": "63921d44fda707c50179fbb58e5098a89b99ccf2b32d627c6bdab299ddf2fc87",
+      "split": "train",
+      "crop_xyxy": [
+        1107,
+        29,
+        2131,
+        1053
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_14_Pro_left",
+      "source_id": "WIN_20220330_16_10_14_Pro",
+      "source_sha256": "f4b9f9d0cc7c28eaf681c0057206a3ccf189724a0e8514e4a3d22ecf6c651c29",
+      "split": "train",
+      "crop_xyxy": [
+        399,
+        108,
+        1423,
+        1132
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_14_Pro_right",
+      "source_id": "WIN_20220330_16_10_14_Pro",
+      "source_sha256": "f4b9f9d0cc7c28eaf681c0057206a3ccf189724a0e8514e4a3d22ecf6c651c29",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        317,
+        2560,
+        1341
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_23_Pro_left",
+      "source_id": "WIN_20220330_16_10_23_Pro",
+      "source_sha256": "c625def04c064a42d3355937a8ab700bd984aa1e9bb1680be93e6bb5c45c3256",
+      "split": "val",
+      "crop_xyxy": [
+        349,
+        205,
+        1373,
+        1229
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_23_Pro_right",
+      "source_id": "WIN_20220330_16_10_23_Pro",
+      "source_sha256": "c625def04c064a42d3355937a8ab700bd984aa1e9bb1680be93e6bb5c45c3256",
+      "split": "val",
+      "crop_xyxy": [
+        1486,
+        305,
+        2510,
+        1329
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_38_Pro_left",
+      "source_id": "WIN_20220330_16_10_38_Pro",
+      "source_sha256": "c4c09bd9f3ad7bc45b437a59396d342ad6f7f19d0d2194fa58cfedabcae7d604",
+      "split": "train",
+      "crop_xyxy": [
+        334,
+        191,
+        1358,
+        1215
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_38_Pro_right",
+      "source_id": "WIN_20220330_16_10_38_Pro",
+      "source_sha256": "c4c09bd9f3ad7bc45b437a59396d342ad6f7f19d0d2194fa58cfedabcae7d604",
+      "split": "train",
+      "crop_xyxy": [
+        1380,
+        267,
+        2404,
+        1291
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_53_Pro_left",
+      "source_id": "WIN_20220330_16_10_53_Pro",
+      "source_sha256": "23bcab4ded469bd7b3f973b186f6b741bd6c34a7baed7cc9ce2f8e99b786f8f6",
+      "split": "test",
+      "crop_xyxy": [
+        278,
+        25,
+        1302,
+        1049
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_10_53_Pro_right",
+      "source_id": "WIN_20220330_16_10_53_Pro",
+      "source_sha256": "23bcab4ded469bd7b3f973b186f6b741bd6c34a7baed7cc9ce2f8e99b786f8f6",
+      "split": "test",
+      "crop_xyxy": [
+        1392,
+        118,
+        2416,
+        1142
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_07_Pro_left",
+      "source_id": "WIN_20220330_16_11_07_Pro",
+      "source_sha256": "fce5103640d4e6006c75877a90296301d0071d01c655080124e43aceb59623b6",
+      "split": "train",
+      "crop_xyxy": [
+        321,
+        83,
+        1345,
+        1107
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_07_Pro_right",
+      "source_id": "WIN_20220330_16_11_07_Pro",
+      "source_sha256": "fce5103640d4e6006c75877a90296301d0071d01c655080124e43aceb59623b6",
+      "split": "train",
+      "crop_xyxy": [
+        1486,
+        249,
+        2510,
+        1273
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_37_Pro_left",
+      "source_id": "WIN_20220330_16_11_37_Pro",
+      "source_sha256": "6ccbdc9a47f9623cd957b9035040c12afc72e3459ecd1aa4997e3260c9c50108",
+      "split": "train",
+      "crop_xyxy": [
+        423,
+        12,
+        1447,
+        1036
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_37_Pro_right",
+      "source_id": "WIN_20220330_16_11_37_Pro",
+      "source_sha256": "6ccbdc9a47f9623cd957b9035040c12afc72e3459ecd1aa4997e3260c9c50108",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        223,
+        2560,
+        1247
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_49_Pro_left",
+      "source_id": "WIN_20220330_16_11_49_Pro",
+      "source_sha256": "37046df68b6170bbec4290646daaaa3b2791623cac7f18a0d10107ee4c9465f1",
+      "split": "test",
+      "crop_xyxy": [
+        226,
+        42,
+        1250,
+        1066
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_11_49_Pro_right",
+      "source_id": "WIN_20220330_16_11_49_Pro",
+      "source_sha256": "37046df68b6170bbec4290646daaaa3b2791623cac7f18a0d10107ee4c9465f1",
+      "split": "test",
+      "crop_xyxy": [
+        1275,
+        169,
+        2299,
+        1193
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_00_Pro_left",
+      "source_id": "WIN_20220330_16_12_00_Pro",
+      "source_sha256": "80ff8533020c451eae88ff502e3798676c6b04c4bf84b6e4041019bf65780b64",
+      "split": "train",
+      "crop_xyxy": [
+        351,
+        42,
+        1375,
+        1066
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_00_Pro_right",
+      "source_id": "WIN_20220330_16_12_00_Pro",
+      "source_sha256": "80ff8533020c451eae88ff502e3798676c6b04c4bf84b6e4041019bf65780b64",
+      "split": "train",
+      "crop_xyxy": [
+        1507,
+        260,
+        2531,
+        1284
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_11_Pro_left",
+      "source_id": "WIN_20220330_16_12_11_Pro",
+      "source_sha256": "1690858db34318aed63abe7b8ac1aec0971f9538074441370af68c660e28c9cc",
+      "split": "train",
+      "crop_xyxy": [
+        257,
+        42,
+        1281,
+        1066
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_11_Pro_right",
+      "source_id": "WIN_20220330_16_12_11_Pro",
+      "source_sha256": "1690858db34318aed63abe7b8ac1aec0971f9538074441370af68c660e28c9cc",
+      "split": "train",
+      "crop_xyxy": [
+        1363,
+        140,
+        2387,
+        1164
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_31_Pro_left",
+      "source_id": "WIN_20220330_16_12_31_Pro",
+      "source_sha256": "8c4678dd2a451bdb2429355fd5144dd03f8b600b933e6fe4eebe4977c9eeee0b",
+      "split": "test",
+      "crop_xyxy": [
+        40,
+        131,
+        1064,
+        1155
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_12_31_Pro_right",
+      "source_id": "WIN_20220330_16_12_31_Pro",
+      "source_sha256": "8c4678dd2a451bdb2429355fd5144dd03f8b600b933e6fe4eebe4977c9eeee0b",
+      "split": "test",
+      "crop_xyxy": [
+        1205,
+        274,
+        2229,
+        1298
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_14_05_Pro_left",
+      "source_id": "WIN_20220330_16_14_05_Pro",
+      "source_sha256": "25997a424ae21ba0be991ee7fa0fe6e0bb5ffbafa4c605a41233706e053f8d1b",
+      "split": "train",
+      "crop_xyxy": [
+        211,
+        148,
+        1235,
+        1172
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_14_05_Pro_right",
+      "source_id": "WIN_20220330_16_14_05_Pro",
+      "source_sha256": "25997a424ae21ba0be991ee7fa0fe6e0bb5ffbafa4c605a41233706e053f8d1b",
+      "split": "train",
+      "crop_xyxy": [
+        1235,
+        176,
+        2259,
+        1200
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_14_26_Pro_left",
+      "source_id": "WIN_20220330_16_14_26_Pro",
+      "source_sha256": "4df671f97f583e2ba5596c6bbe41b04c9fe548394ffdece2d9b534c8461e7626",
+      "split": "train",
+      "crop_xyxy": [
+        379,
+        0,
+        1403,
+        1024
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_14_26_Pro_right",
+      "source_id": "WIN_20220330_16_14_26_Pro",
+      "source_sha256": "4df671f97f583e2ba5596c6bbe41b04c9fe548394ffdece2d9b534c8461e7626",
+      "split": "train",
+      "crop_xyxy": [
+        1403,
+        24,
+        2427,
+        1048
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_17_Pro_left",
+      "source_id": "WIN_20220330_16_15_17_Pro",
+      "source_sha256": "937da7e32e9666094f65c38138369c04929bcb2d38f8a08339b836d4eba41778",
+      "split": "train",
+      "crop_xyxy": [
+        278,
+        84,
+        1302,
+        1108
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_17_Pro_right",
+      "source_id": "WIN_20220330_16_15_17_Pro",
+      "source_sha256": "937da7e32e9666094f65c38138369c04929bcb2d38f8a08339b836d4eba41778",
+      "split": "train",
+      "crop_xyxy": [
+        1302,
+        150,
+        2326,
+        1174
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_27_Pro_left",
+      "source_id": "WIN_20220330_16_15_27_Pro",
+      "source_sha256": "50429cf111f251341e8cffedfba5cbd7d936350b329073680f8e5d4226b90323",
+      "split": "train",
+      "crop_xyxy": [
+        501,
+        168,
+        1525,
+        1192
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_27_Pro_right",
+      "source_id": "WIN_20220330_16_15_27_Pro",
+      "source_sha256": "50429cf111f251341e8cffedfba5cbd7d936350b329073680f8e5d4226b90323",
+      "split": "train",
+      "crop_xyxy": [
+        1525,
+        199,
+        2549,
+        1223
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_38_Pro_left",
+      "source_id": "WIN_20220330_16_15_38_Pro",
+      "source_sha256": "5d4f07659cd5c6efd27794b7fbedcf1f786b853408630118a809e3a63279db1b",
+      "split": "train",
+      "crop_xyxy": [
+        369,
+        160,
+        1393,
+        1184
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_38_Pro_right",
+      "source_id": "WIN_20220330_16_15_38_Pro",
+      "source_sha256": "5d4f07659cd5c6efd27794b7fbedcf1f786b853408630118a809e3a63279db1b",
+      "split": "train",
+      "crop_xyxy": [
+        1393,
+        279,
+        2417,
+        1303
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_49_Pro_left",
+      "source_id": "WIN_20220330_16_15_49_Pro",
+      "source_sha256": "c47f397051cc42891bea39a1e82d14922aa1b4ab65bd223f9223402188795918",
+      "split": "train",
+      "crop_xyxy": [
+        367,
+        118,
+        1391,
+        1142
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_15_49_Pro_right",
+      "source_id": "WIN_20220330_16_15_49_Pro",
+      "source_sha256": "c47f397051cc42891bea39a1e82d14922aa1b4ab65bd223f9223402188795918",
+      "split": "train",
+      "crop_xyxy": [
+        1391,
+        162,
+        2415,
+        1186
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_02_Pro_left",
+      "source_id": "WIN_20220330_16_16_02_Pro",
+      "source_sha256": "04a90dec70c78576f6df6735d67eefc0c80bc7f01f38a41ba93cdd1b473238e1",
+      "split": "train",
+      "crop_xyxy": [
+        303,
+        102,
+        1327,
+        1126
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_02_Pro_right",
+      "source_id": "WIN_20220330_16_16_02_Pro",
+      "source_sha256": "04a90dec70c78576f6df6735d67eefc0c80bc7f01f38a41ba93cdd1b473238e1",
+      "split": "train",
+      "crop_xyxy": [
+        1327,
+        195,
+        2351,
+        1219
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_16_Pro_left",
+      "source_id": "WIN_20220330_16_16_16_Pro",
+      "source_sha256": "8c00be9b5935960655482ae2fba0918f891874bc4313d76e23391a76206179b0",
+      "split": "train",
+      "crop_xyxy": [
+        387,
+        121,
+        1411,
+        1145
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_16_Pro_right",
+      "source_id": "WIN_20220330_16_16_16_Pro",
+      "source_sha256": "8c00be9b5935960655482ae2fba0918f891874bc4313d76e23391a76206179b0",
+      "split": "train",
+      "crop_xyxy": [
+        1411,
+        243,
+        2435,
+        1267
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_29_Pro_left",
+      "source_id": "WIN_20220330_16_16_29_Pro",
+      "source_sha256": "94085dc673cef24c14a519c5c209f0826c392829fd3dc33ed9dc73efcda55ca0",
+      "split": "train",
+      "crop_xyxy": [
+        413,
+        148,
+        1437,
+        1172
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_16_29_Pro_right",
+      "source_id": "WIN_20220330_16_16_29_Pro",
+      "source_sha256": "94085dc673cef24c14a519c5c209f0826c392829fd3dc33ed9dc73efcda55ca0",
+      "split": "train",
+      "crop_xyxy": [
+        1437,
+        173,
+        2461,
+        1197
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_18_Pro_left",
+      "source_id": "WIN_20220330_16_17_18_Pro",
+      "source_sha256": "aa7192d3be4cf5782b9ad99807fa7f1ab6b2cc81181db45d25cb416d8706821e",
+      "split": "train",
+      "crop_xyxy": [
+        440,
+        28,
+        1464,
+        1052
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_18_Pro_right",
+      "source_id": "WIN_20220330_16_17_18_Pro",
+      "source_sha256": "aa7192d3be4cf5782b9ad99807fa7f1ab6b2cc81181db45d25cb416d8706821e",
+      "split": "train",
+      "crop_xyxy": [
+        1464,
+        207,
+        2488,
+        1231
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_47_Pro_left",
+      "source_id": "WIN_20220330_16_17_47_Pro",
+      "source_sha256": "4856ed4ac45e4ded7d9d72936326a07c356d07a10fded4b9af658378bf29f7e2",
+      "split": "train",
+      "crop_xyxy": [
+        0,
+        187,
+        1024,
+        1211
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_47_Pro_right",
+      "source_id": "WIN_20220330_16_17_47_Pro",
+      "source_sha256": "4856ed4ac45e4ded7d9d72936326a07c356d07a10fded4b9af658378bf29f7e2",
+      "split": "train",
+      "crop_xyxy": [
+        1024,
+        221,
+        2048,
+        1245
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_58_Pro_left",
+      "source_id": "WIN_20220330_16_17_58_Pro",
+      "source_sha256": "2a13f34065bc6ce15d9691e22d0c78d895d5417311787895efb1d8538d97584e",
+      "split": "train",
+      "crop_xyxy": [
+        298,
+        216,
+        1322,
+        1240
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_17_58_Pro_right",
+      "source_id": "WIN_20220330_16_17_58_Pro",
+      "source_sha256": "2a13f34065bc6ce15d9691e22d0c78d895d5417311787895efb1d8538d97584e",
+      "split": "train",
+      "crop_xyxy": [
+        1322,
+        192,
+        2346,
+        1216
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_10_Pro_left",
+      "source_id": "WIN_20220330_16_18_10_Pro",
+      "source_sha256": "051a97a6a702cc996f10a2cc18bf2862947e3d8390234f6ce201edaf103ed08e",
+      "split": "train",
+      "crop_xyxy": [
+        386,
+        130,
+        1410,
+        1154
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_10_Pro_right",
+      "source_id": "WIN_20220330_16_18_10_Pro",
+      "source_sha256": "051a97a6a702cc996f10a2cc18bf2862947e3d8390234f6ce201edaf103ed08e",
+      "split": "train",
+      "crop_xyxy": [
+        1410,
+        207,
+        2434,
+        1231
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_24_Pro_left",
+      "source_id": "WIN_20220330_16_18_24_Pro",
+      "source_sha256": "e4df31c3dca07905ae6f5a3531bdf92a8abf8d8326b51a1f60b38dcee8f9b048",
+      "split": "train",
+      "crop_xyxy": [
+        316,
+        181,
+        1340,
+        1205
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_24_Pro_right",
+      "source_id": "WIN_20220330_16_18_24_Pro",
+      "source_sha256": "e4df31c3dca07905ae6f5a3531bdf92a8abf8d8326b51a1f60b38dcee8f9b048",
+      "split": "train",
+      "crop_xyxy": [
+        1340,
+        231,
+        2364,
+        1255
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_41_Pro_left",
+      "source_id": "WIN_20220330_16_18_41_Pro",
+      "source_sha256": "fef8992a4fa3e2e153e80de61a8dc91bef906933cbd1acccd185f732cb49afdf",
+      "split": "test",
+      "crop_xyxy": [
+        305,
+        118,
+        1329,
+        1142
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_41_Pro_right",
+      "source_id": "WIN_20220330_16_18_41_Pro",
+      "source_sha256": "fef8992a4fa3e2e153e80de61a8dc91bef906933cbd1acccd185f732cb49afdf",
+      "split": "test",
+      "crop_xyxy": [
+        1329,
+        223,
+        2353,
+        1247
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_53_Pro_left",
+      "source_id": "WIN_20220330_16_18_53_Pro",
+      "source_sha256": "5476d75e9aade2e9f5bdd43c07de7b649df585f7d38e3494d5e15163744fb183",
+      "split": "train",
+      "crop_xyxy": [
+        236,
+        110,
+        1260,
+        1134
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220330_16_18_53_Pro_right",
+      "source_id": "WIN_20220330_16_18_53_Pro",
+      "source_sha256": "5476d75e9aade2e9f5bdd43c07de7b649df585f7d38e3494d5e15163744fb183",
+      "split": "train",
+      "crop_xyxy": [
+        1260,
+        183,
+        2284,
+        1207
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_00_Pro_left",
+      "source_id": "WIN_20220408_13_43_00_Pro",
+      "source_sha256": "fe387307316b4cfba7f695ed7cf17cc9c548e5b2d3f2e1d10a0826b86c638176",
+      "split": "test",
+      "crop_xyxy": [
+        512,
+        330,
+        1536,
+        1354
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_00_Pro_right",
+      "source_id": "WIN_20220408_13_43_00_Pro",
+      "source_sha256": "fe387307316b4cfba7f695ed7cf17cc9c548e5b2d3f2e1d10a0826b86c638176",
+      "split": "test",
+      "crop_xyxy": [
+        1536,
+        378,
+        2560,
+        1402
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_17_Pro_left",
+      "source_id": "WIN_20220408_13_43_17_Pro",
+      "source_sha256": "cf71916b25936c693620df548e4ce14e89864c48c56d07d721302368359379d2",
+      "split": "val",
+      "crop_xyxy": [
+        472,
+        366,
+        1496,
+        1390
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_17_Pro_right",
+      "source_id": "WIN_20220408_13_43_17_Pro",
+      "source_sha256": "cf71916b25936c693620df548e4ce14e89864c48c56d07d721302368359379d2",
+      "split": "val",
+      "crop_xyxy": [
+        1496,
+        393,
+        2520,
+        1417
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_34_Pro_left",
+      "source_id": "WIN_20220408_13_43_34_Pro",
+      "source_sha256": "4f99625f58b8ea749ec446375b90fb3013fab49e47565756877e7af6e103a7eb",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        377,
+        1536,
+        1401
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_43_34_Pro_right",
+      "source_id": "WIN_20220408_13_43_34_Pro",
+      "source_sha256": "4f99625f58b8ea749ec446375b90fb3013fab49e47565756877e7af6e103a7eb",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        416,
+        2560,
+        1440
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_44_48_Pro_C10_left",
+      "source_id": "WIN_20220408_13_44_48_Pro_C10",
+      "source_sha256": "fa240ec4f9773248697acf255842543b042433f662b72d4c35932bd7304e4e42",
+      "split": "test",
+      "crop_xyxy": [
+        480,
+        262,
+        1504,
+        1286
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_44_48_Pro_C10_right",
+      "source_id": "WIN_20220408_13_44_48_Pro_C10",
+      "source_sha256": "fa240ec4f9773248697acf255842543b042433f662b72d4c35932bd7304e4e42",
+      "split": "test",
+      "crop_xyxy": [
+        1504,
+        303,
+        2528,
+        1327
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_05_Pro_C12_left",
+      "source_id": "WIN_20220408_13_46_05_Pro_C12",
+      "source_sha256": "9b444e659e9daac24d0fcfbebe1647c9d21bf0a49361712e6ce1e74069e9295c",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        317,
+        1536,
+        1341
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_05_Pro_C12_right",
+      "source_id": "WIN_20220408_13_46_05_Pro_C12",
+      "source_sha256": "9b444e659e9daac24d0fcfbebe1647c9d21bf0a49361712e6ce1e74069e9295c",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        337,
+        2560,
+        1361
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_20_Pro_C13_left",
+      "source_id": "WIN_20220408_13_46_20_Pro_C13",
+      "source_sha256": "6841586949f2eb04a9b1b609900515bfb0bf32fa618d347acf275338764eaed8",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        281,
+        1536,
+        1305
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_20_Pro_C13_right",
+      "source_id": "WIN_20220408_13_46_20_Pro_C13",
+      "source_sha256": "6841586949f2eb04a9b1b609900515bfb0bf32fa618d347acf275338764eaed8",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        372,
+        2560,
+        1396
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_35_Pro_C14_left",
+      "source_id": "WIN_20220408_13_46_35_Pro_C14",
+      "source_sha256": "2ed45b81c1259a00c2a5f2f015890ba9950aa93cc9c33c18f1654728f079c71c",
+      "split": "train",
+      "crop_xyxy": [
+        508,
+        287,
+        1532,
+        1311
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_46_35_Pro_C14_right",
+      "source_id": "WIN_20220408_13_46_35_Pro_C14",
+      "source_sha256": "2ed45b81c1259a00c2a5f2f015890ba9950aa93cc9c33c18f1654728f079c71c",
+      "split": "train",
+      "crop_xyxy": [
+        1532,
+        388,
+        2556,
+        1412
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_16_Pro_C1_left",
+      "source_id": "WIN_20220408_13_49_16_Pro_C1",
+      "source_sha256": "8f493d3ade9b604d73445e35474d7ea6579235a4e3dfa917bf38b0867cc522d1",
+      "split": "train",
+      "crop_xyxy": [
+        234,
+        148,
+        1258,
+        1172
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_16_Pro_C1_right",
+      "source_id": "WIN_20220408_13_49_16_Pro_C1",
+      "source_sha256": "8f493d3ade9b604d73445e35474d7ea6579235a4e3dfa917bf38b0867cc522d1",
+      "split": "train",
+      "crop_xyxy": [
+        1258,
+        349,
+        2282,
+        1373
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_25_Pro_C2_left",
+      "source_id": "WIN_20220408_13_49_25_Pro_C2",
+      "source_sha256": "f3dee17e747a89efcb614e82358a23a2f4c5111aef8314aa9a8ce6c909f483cf",
+      "split": "train",
+      "crop_xyxy": [
+        185,
+        300,
+        1209,
+        1324
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_25_Pro_C2_right",
+      "source_id": "WIN_20220408_13_49_25_Pro_C2",
+      "source_sha256": "f3dee17e747a89efcb614e82358a23a2f4c5111aef8314aa9a8ce6c909f483cf",
+      "split": "train",
+      "crop_xyxy": [
+        1209,
+        369,
+        2233,
+        1393
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_34_Pro_C3_left",
+      "source_id": "WIN_20220408_13_49_34_Pro_C3",
+      "source_sha256": "1de103875141b600b4836e1fde107ad7ee6a745306c47a7646b05b47ef7f1365",
+      "split": "train",
+      "crop_xyxy": [
+        308,
+        254,
+        1332,
+        1278
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_34_Pro_C3_right",
+      "source_id": "WIN_20220408_13_49_34_Pro_C3",
+      "source_sha256": "1de103875141b600b4836e1fde107ad7ee6a745306c47a7646b05b47ef7f1365",
+      "split": "train",
+      "crop_xyxy": [
+        1332,
+        353,
+        2356,
+        1377
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_43_Pro_C4_left",
+      "source_id": "WIN_20220408_13_49_43_Pro_C4",
+      "source_sha256": "aad1f386292edfc65bfc6e6c218d2cf385792b264d43e3c70923be7ecea4cbef",
+      "split": "train",
+      "crop_xyxy": [
+        173,
+        352,
+        1197,
+        1376
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_43_Pro_C4_right",
+      "source_id": "WIN_20220408_13_49_43_Pro_C4",
+      "source_sha256": "aad1f386292edfc65bfc6e6c218d2cf385792b264d43e3c70923be7ecea4cbef",
+      "split": "train",
+      "crop_xyxy": [
+        1197,
+        416,
+        2221,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_53_Pro_C5_left",
+      "source_id": "WIN_20220408_13_49_53_Pro_C5",
+      "source_sha256": "4fbab1dab32255e823c7dc38dc79f64156703dda54b5163ad82f89af2648a323",
+      "split": "train",
+      "crop_xyxy": [
+        313,
+        352,
+        1337,
+        1376
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_49_53_Pro_C5_right",
+      "source_id": "WIN_20220408_13_49_53_Pro_C5",
+      "source_sha256": "4fbab1dab32255e823c7dc38dc79f64156703dda54b5163ad82f89af2648a323",
+      "split": "train",
+      "crop_xyxy": [
+        1337,
+        416,
+        2361,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_02_Pro_C6_left",
+      "source_id": "WIN_20220408_13_50_02_Pro_C6",
+      "source_sha256": "a091988e0f648ff173d859ac25535b0bcb9fabf4d6feeac269fbe5b033f37228",
+      "split": "train",
+      "crop_xyxy": [
+        191,
+        326,
+        1215,
+        1350
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_02_Pro_C6_right",
+      "source_id": "WIN_20220408_13_50_02_Pro_C6",
+      "source_sha256": "a091988e0f648ff173d859ac25535b0bcb9fabf4d6feeac269fbe5b033f37228",
+      "split": "train",
+      "crop_xyxy": [
+        1215,
+        416,
+        2239,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_13_Pro_C7_left",
+      "source_id": "WIN_20220408_13_50_13_Pro_C7",
+      "source_sha256": "fdf0364c4779e482dbefd6c88882ea310a1d0c389bd61804e3f66b336665d66c",
+      "split": "test",
+      "crop_xyxy": [
+        238,
+        220,
+        1262,
+        1244
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_13_Pro_C7_right",
+      "source_id": "WIN_20220408_13_50_13_Pro_C7",
+      "source_sha256": "fdf0364c4779e482dbefd6c88882ea310a1d0c389bd61804e3f66b336665d66c",
+      "split": "test",
+      "crop_xyxy": [
+        1262,
+        416,
+        2286,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_25_Pro_C8_left",
+      "source_id": "WIN_20220408_13_50_25_Pro_C8",
+      "source_sha256": "cf6724e71239f2257ece94f5973b5f5de91ec2dfa11f3ad2879c14b3abbe0b1c",
+      "split": "train",
+      "crop_xyxy": [
+        299,
+        250,
+        1323,
+        1274
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_25_Pro_C8_right",
+      "source_id": "WIN_20220408_13_50_25_Pro_C8",
+      "source_sha256": "cf6724e71239f2257ece94f5973b5f5de91ec2dfa11f3ad2879c14b3abbe0b1c",
+      "split": "train",
+      "crop_xyxy": [
+        1323,
+        278,
+        2347,
+        1302
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_38_Pro_C9_left",
+      "source_id": "WIN_20220408_13_50_38_Pro_C9",
+      "source_sha256": "b0c3024b27b2aef2df3f5ef8558b0dce25119338828159d37bd9afa4b50a28e3",
+      "split": "val",
+      "crop_xyxy": [
+        370,
+        227,
+        1394,
+        1251
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_50_38_Pro_C9_right",
+      "source_id": "WIN_20220408_13_50_38_Pro_C9",
+      "source_sha256": "b0c3024b27b2aef2df3f5ef8558b0dce25119338828159d37bd9afa4b50a28e3",
+      "split": "val",
+      "crop_xyxy": [
+        1394,
+        269,
+        2418,
+        1293
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_02_Pro_C10_left",
+      "source_id": "WIN_20220408_13_51_02_Pro_C10",
+      "source_sha256": "1d5c2c5afb8039bead639c34dc086fc7f4366cfa9bf1ce69fcc06370a74e5034",
+      "split": "test",
+      "crop_xyxy": [
+        345,
+        255,
+        1369,
+        1279
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_02_Pro_C10_right",
+      "source_id": "WIN_20220408_13_51_02_Pro_C10",
+      "source_sha256": "1d5c2c5afb8039bead639c34dc086fc7f4366cfa9bf1ce69fcc06370a74e5034",
+      "split": "test",
+      "crop_xyxy": [
+        1369,
+        286,
+        2393,
+        1310
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_39_Pro_C11_left",
+      "source_id": "WIN_20220408_13_51_39_Pro_C11",
+      "source_sha256": "dd4ddfc1700813a532928062f207727d0b76822aa2d09f808ca18d7a9f296e99",
+      "split": "train",
+      "crop_xyxy": [
+        186,
+        293,
+        1210,
+        1317
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_39_Pro_C11_right",
+      "source_id": "WIN_20220408_13_51_39_Pro_C11",
+      "source_sha256": "dd4ddfc1700813a532928062f207727d0b76822aa2d09f808ca18d7a9f296e99",
+      "split": "train",
+      "crop_xyxy": [
+        1210,
+        386,
+        2234,
+        1410
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_51_Pro_C12_left",
+      "source_id": "WIN_20220408_13_51_51_Pro_C12",
+      "source_sha256": "9e6a2e1531f851c73cd38f17ea5549d4995948d811639ce18af800172565b9a7",
+      "split": "test",
+      "crop_xyxy": [
+        340,
+        287,
+        1364,
+        1311
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_51_51_Pro_C12_right",
+      "source_id": "WIN_20220408_13_51_51_Pro_C12",
+      "source_sha256": "9e6a2e1531f851c73cd38f17ea5549d4995948d811639ce18af800172565b9a7",
+      "split": "test",
+      "crop_xyxy": [
+        1364,
+        385,
+        2388,
+        1409
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_52_04_Pro_C13_left",
+      "source_id": "WIN_20220408_13_52_04_Pro_C13",
+      "source_sha256": "e47cd6d67463b7dd27a8d6946bea87b16d58a6732440fd331942e7cbeda83e6e",
+      "split": "train",
+      "crop_xyxy": [
+        243,
+        229,
+        1267,
+        1253
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_52_04_Pro_C13_right",
+      "source_id": "WIN_20220408_13_52_04_Pro_C13",
+      "source_sha256": "e47cd6d67463b7dd27a8d6946bea87b16d58a6732440fd331942e7cbeda83e6e",
+      "split": "train",
+      "crop_xyxy": [
+        1267,
+        351,
+        2291,
+        1375
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_52_16_Pro_C14_left",
+      "source_id": "WIN_20220408_13_52_16_Pro_C14",
+      "source_sha256": "db1d81ecefdcb23b781dd3a7ec94086e6eb746d0b629dbfba23eab04416529bf",
+      "split": "train",
+      "crop_xyxy": [
+        212,
+        279,
+        1236,
+        1303
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_13_52_16_Pro_C14_right",
+      "source_id": "WIN_20220408_13_52_16_Pro_C14",
+      "source_sha256": "db1d81ecefdcb23b781dd3a7ec94086e6eb746d0b629dbfba23eab04416529bf",
+      "split": "train",
+      "crop_xyxy": [
+        1236,
+        395,
+        2260,
+        1419
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_02_58_Pro_left",
+      "source_id": "WIN_20220408_14_02_58_Pro",
+      "source_sha256": "9ffdf573ecd4d74322fb7cc4bb6e1050a17bc35f9e628c32041b8fc4a0b8f79b",
+      "split": "train",
+      "crop_xyxy": [
+        272,
+        364,
+        1296,
+        1388
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_02_58_Pro_right",
+      "source_id": "WIN_20220408_14_02_58_Pro",
+      "source_sha256": "9ffdf573ecd4d74322fb7cc4bb6e1050a17bc35f9e628c32041b8fc4a0b8f79b",
+      "split": "train",
+      "crop_xyxy": [
+        1296,
+        413,
+        2320,
+        1437
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_19_Pro_left",
+      "source_id": "WIN_20220408_14_03_19_Pro",
+      "source_sha256": "c232d6e4e02a25a00ad3f51f8e99693d658ac2a8351c346d49dcbf5152a13302",
+      "split": "train",
+      "crop_xyxy": [
+        269,
+        284,
+        1293,
+        1308
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_19_Pro_right",
+      "source_id": "WIN_20220408_14_03_19_Pro",
+      "source_sha256": "c232d6e4e02a25a00ad3f51f8e99693d658ac2a8351c346d49dcbf5152a13302",
+      "split": "train",
+      "crop_xyxy": [
+        1293,
+        367,
+        2317,
+        1391
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_30_Pro_left",
+      "source_id": "WIN_20220408_14_03_30_Pro",
+      "source_sha256": "b2c87cd3dd9dfcb99ca5e88675c58561970e4f99215232a1f4f04fe514860be5",
+      "split": "test",
+      "crop_xyxy": [
+        241,
+        368,
+        1265,
+        1392
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_30_Pro_right",
+      "source_id": "WIN_20220408_14_03_30_Pro",
+      "source_sha256": "b2c87cd3dd9dfcb99ca5e88675c58561970e4f99215232a1f4f04fe514860be5",
+      "split": "test",
+      "crop_xyxy": [
+        1265,
+        416,
+        2289,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_41_Pro_left",
+      "source_id": "WIN_20220408_14_03_41_Pro",
+      "source_sha256": "92432e3d57867a9855f8fb809d09d24826cd62a2f42adaf0099177e667eb7dfc",
+      "split": "train",
+      "crop_xyxy": [
+        292,
+        335,
+        1316,
+        1359
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_41_Pro_right",
+      "source_id": "WIN_20220408_14_03_41_Pro",
+      "source_sha256": "92432e3d57867a9855f8fb809d09d24826cd62a2f42adaf0099177e667eb7dfc",
+      "split": "train",
+      "crop_xyxy": [
+        1316,
+        343,
+        2340,
+        1367
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_53_Pro_left",
+      "source_id": "WIN_20220408_14_03_53_Pro",
+      "source_sha256": "60cd7a575caeaf87eb92a0660266bf7e58a64d4a69df80f9cb64b66f35b55a33",
+      "split": "test",
+      "crop_xyxy": [
+        199,
+        280,
+        1223,
+        1304
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_03_53_Pro_right",
+      "source_id": "WIN_20220408_14_03_53_Pro",
+      "source_sha256": "60cd7a575caeaf87eb92a0660266bf7e58a64d4a69df80f9cb64b66f35b55a33",
+      "split": "test",
+      "crop_xyxy": [
+        1223,
+        416,
+        2247,
+        1440
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_10_Pro_left",
+      "source_id": "WIN_20220408_14_04_10_Pro",
+      "source_sha256": "0325ff7afe54becea4e4d8afa9d1636a608fbf1632a0706af8c9f7b1ccb3571e",
+      "split": "val",
+      "crop_xyxy": [
+        378,
+        295,
+        1402,
+        1319
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_10_Pro_right",
+      "source_id": "WIN_20220408_14_04_10_Pro",
+      "source_sha256": "0325ff7afe54becea4e4d8afa9d1636a608fbf1632a0706af8c9f7b1ccb3571e",
+      "split": "val",
+      "crop_xyxy": [
+        1402,
+        378,
+        2426,
+        1402
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_22_Pro_left",
+      "source_id": "WIN_20220408_14_04_22_Pro",
+      "source_sha256": "8ac4c44b3fd7b01cb7a451c85910490a57e8b58e469c58350b888d3dfe3e99ec",
+      "split": "train",
+      "crop_xyxy": [
+        371,
+        300,
+        1395,
+        1324
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_22_Pro_right",
+      "source_id": "WIN_20220408_14_04_22_Pro",
+      "source_sha256": "8ac4c44b3fd7b01cb7a451c85910490a57e8b58e469c58350b888d3dfe3e99ec",
+      "split": "train",
+      "crop_xyxy": [
+        1395,
+        416,
+        2419,
+        1440
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_34_Pro_left",
+      "source_id": "WIN_20220408_14_04_34_Pro",
+      "source_sha256": "fc2a2841a4e5f11bfbabafe33e897c81bb19783192f5586f58118dd59b468a4b",
+      "split": "train",
+      "crop_xyxy": [
+        396,
+        256,
+        1420,
+        1280
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_34_Pro_right",
+      "source_id": "WIN_20220408_14_04_34_Pro",
+      "source_sha256": "fc2a2841a4e5f11bfbabafe33e897c81bb19783192f5586f58118dd59b468a4b",
+      "split": "train",
+      "crop_xyxy": [
+        1420,
+        329,
+        2444,
+        1353
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_45_Pro_left",
+      "source_id": "WIN_20220408_14_04_45_Pro",
+      "source_sha256": "383a03b6b5c2b3c1866dd6a4d4f223792cce9c5e5c6beb53442148bdbb4d0bb7",
+      "split": "train",
+      "crop_xyxy": [
+        512,
+        302,
+        1536,
+        1326
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_45_Pro_right",
+      "source_id": "WIN_20220408_14_04_45_Pro",
+      "source_sha256": "383a03b6b5c2b3c1866dd6a4d4f223792cce9c5e5c6beb53442148bdbb4d0bb7",
+      "split": "train",
+      "crop_xyxy": [
+        1536,
+        416,
+        2560,
+        1440
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_59_Pro_left",
+      "source_id": "WIN_20220408_14_04_59_Pro",
+      "source_sha256": "817ea7763ffed3ed00a83bbe7b84aa9c2a60032fdb5936d1a046908b4cb687ef",
+      "split": "train",
+      "crop_xyxy": [
+        303,
+        368,
+        1327,
+        1392
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_04_59_Pro_right",
+      "source_id": "WIN_20220408_14_04_59_Pro",
+      "source_sha256": "817ea7763ffed3ed00a83bbe7b84aa9c2a60032fdb5936d1a046908b4cb687ef",
+      "split": "train",
+      "crop_xyxy": [
+        1327,
+        416,
+        2351,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_05_25_Pro_left",
+      "source_id": "WIN_20220408_14_05_25_Pro",
+      "source_sha256": "1b082843ca880feac3b0fb91053fece5f969924d63366dcd3affca5cb1805321",
+      "split": "train",
+      "crop_xyxy": [
+        273,
+        311,
+        1297,
+        1335
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_05_25_Pro_right",
+      "source_id": "WIN_20220408_14_05_25_Pro",
+      "source_sha256": "1b082843ca880feac3b0fb91053fece5f969924d63366dcd3affca5cb1805321",
+      "split": "train",
+      "crop_xyxy": [
+        1297,
+        416,
+        2321,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_05_45_Pro_left",
+      "source_id": "WIN_20220408_14_05_45_Pro",
+      "source_sha256": "aa11cb4b82c5cea240af6ac6a5ca1fd59df6f90e461a9f0764e1c6bae8cb7716",
+      "split": "train",
+      "crop_xyxy": [
+        244,
+        405,
+        1268,
+        1429
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_05_45_Pro_right",
+      "source_id": "WIN_20220408_14_05_45_Pro",
+      "source_sha256": "aa11cb4b82c5cea240af6ac6a5ca1fd59df6f90e461a9f0764e1c6bae8cb7716",
+      "split": "train",
+      "crop_xyxy": [
+        1268,
+        416,
+        2292,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_09_46_Pro_C35_left",
+      "source_id": "WIN_20220408_14_09_46_Pro_C35",
+      "source_sha256": "7287c1efebf299d3175515309092670df0a4ecf37d0a4c2a318204d6a6ca7864",
+      "split": "test",
+      "crop_xyxy": [
+        206,
+        357,
+        1230,
+        1381
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_09_46_Pro_C35_right",
+      "source_id": "WIN_20220408_14_09_46_Pro_C35",
+      "source_sha256": "7287c1efebf299d3175515309092670df0a4ecf37d0a4c2a318204d6a6ca7864",
+      "split": "test",
+      "crop_xyxy": [
+        1230,
+        397,
+        2254,
+        1421
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_29_Pro_left",
+      "source_id": "WIN_20220408_14_10_29_Pro",
+      "source_sha256": "2247b70149b187df8881c502b1314e543a9b6a38df3f6689ba075dcab3a8e986",
+      "split": "val",
+      "crop_xyxy": [
+        331,
+        391,
+        1355,
+        1415
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_29_Pro_right",
+      "source_id": "WIN_20220408_14_10_29_Pro",
+      "source_sha256": "2247b70149b187df8881c502b1314e543a9b6a38df3f6689ba075dcab3a8e986",
+      "split": "val",
+      "crop_xyxy": [
+        1355,
+        416,
+        2379,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_41_Pro_left",
+      "source_id": "WIN_20220408_14_10_41_Pro",
+      "source_sha256": "eeaacd38901f62992a6363a6fc4891c47ef0f5a8bd33e44dceea00a5646e8b2a",
+      "split": "train",
+      "crop_xyxy": [
+        341,
+        405,
+        1365,
+        1429
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_41_Pro_right",
+      "source_id": "WIN_20220408_14_10_41_Pro",
+      "source_sha256": "eeaacd38901f62992a6363a6fc4891c47ef0f5a8bd33e44dceea00a5646e8b2a",
+      "split": "train",
+      "crop_xyxy": [
+        1365,
+        416,
+        2389,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_55_Pro_left",
+      "source_id": "WIN_20220408_14_10_55_Pro",
+      "source_sha256": "32394a1fc35f18beeb19c14208140d0bbe3133c1104de673d596f6fb0e7046dc",
+      "split": "test",
+      "crop_xyxy": [
+        258,
+        291,
+        1282,
+        1315
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_10_55_Pro_right",
+      "source_id": "WIN_20220408_14_10_55_Pro",
+      "source_sha256": "32394a1fc35f18beeb19c14208140d0bbe3133c1104de673d596f6fb0e7046dc",
+      "split": "test",
+      "crop_xyxy": [
+        1282,
+        416,
+        2306,
+        1440
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_07_Pro_left",
+      "source_id": "WIN_20220408_14_11_07_Pro",
+      "source_sha256": "f78c6d45f1936e22ff44d0cba550c669964f1905318141be158a869596d12c2e",
+      "split": "train",
+      "crop_xyxy": [
+        338,
+        406,
+        1362,
+        1430
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_07_Pro_right",
+      "source_id": "WIN_20220408_14_11_07_Pro",
+      "source_sha256": "f78c6d45f1936e22ff44d0cba550c669964f1905318141be158a869596d12c2e",
+      "split": "train",
+      "crop_xyxy": [
+        1362,
+        416,
+        2386,
+        1440
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_18_Pro_left",
+      "source_id": "WIN_20220408_14_11_18_Pro",
+      "source_sha256": "6733a4e5ecbed0a8e9815095274f2e41e75c4a64e5a4b572ba2f6d7e01657aec",
+      "split": "val",
+      "crop_xyxy": [
+        358,
+        293,
+        1382,
+        1317
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_18_Pro_right",
+      "source_id": "WIN_20220408_14_11_18_Pro",
+      "source_sha256": "6733a4e5ecbed0a8e9815095274f2e41e75c4a64e5a4b572ba2f6d7e01657aec",
+      "split": "val",
+      "crop_xyxy": [
+        1382,
+        416,
+        2406,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_34_Pro_left",
+      "source_id": "WIN_20220408_14_11_34_Pro",
+      "source_sha256": "196b08b3221996e4881ad4ef92adae88004873101de38f941d5e76c443a0b35b",
+      "split": "train",
+      "crop_xyxy": [
+        245,
+        381,
+        1269,
+        1405
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_34_Pro_right",
+      "source_id": "WIN_20220408_14_11_34_Pro",
+      "source_sha256": "196b08b3221996e4881ad4ef92adae88004873101de38f941d5e76c443a0b35b",
+      "split": "train",
+      "crop_xyxy": [
+        1269,
+        416,
+        2293,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_46_Pro_left",
+      "source_id": "WIN_20220408_14_11_46_Pro",
+      "source_sha256": "9c3962a001fccba09bc89f2a92d1b6d022bef6237c5f192a72e8394280d6a141",
+      "split": "train",
+      "crop_xyxy": [
+        337,
+        180,
+        1361,
+        1204
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_11_46_Pro_right",
+      "source_id": "WIN_20220408_14_11_46_Pro",
+      "source_sha256": "9c3962a001fccba09bc89f2a92d1b6d022bef6237c5f192a72e8394280d6a141",
+      "split": "train",
+      "crop_xyxy": [
+        1361,
+        375,
+        2385,
+        1399
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_12_00_Pro_left",
+      "source_id": "WIN_20220408_14_12_00_Pro",
+      "source_sha256": "3abc062ddeb33370cba52db1096ef578c200ad696c78cc2fee6eb9e6cd0d372f",
+      "split": "val",
+      "crop_xyxy": [
+        316,
+        247,
+        1340,
+        1271
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_12_00_Pro_right",
+      "source_id": "WIN_20220408_14_12_00_Pro",
+      "source_sha256": "3abc062ddeb33370cba52db1096ef578c200ad696c78cc2fee6eb9e6cd0d372f",
+      "split": "val",
+      "crop_xyxy": [
+        1340,
+        378,
+        2364,
+        1402
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_12_16_Pro_left",
+      "source_id": "WIN_20220408_14_12_16_Pro",
+      "source_sha256": "75399978fce3ffcd039b237461a11e2acd87d9355e0fade923d6bf7cda73c78e",
+      "split": "train",
+      "crop_xyxy": [
+        431,
+        242,
+        1455,
+        1266
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_12_16_Pro_right",
+      "source_id": "WIN_20220408_14_12_16_Pro",
+      "source_sha256": "75399978fce3ffcd039b237461a11e2acd87d9355e0fade923d6bf7cda73c78e",
+      "split": "train",
+      "crop_xyxy": [
+        1455,
+        416,
+        2479,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_28_Pro_left",
+      "source_id": "WIN_20220408_14_13_28_Pro",
+      "source_sha256": "3e9b49d3acaf724860764bf45f9777aed2b703210c0d1509b886ec0a513c20ea",
+      "split": "train",
+      "crop_xyxy": [
+        141,
+        186,
+        1165,
+        1210
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_28_Pro_right",
+      "source_id": "WIN_20220408_14_13_28_Pro",
+      "source_sha256": "3e9b49d3acaf724860764bf45f9777aed2b703210c0d1509b886ec0a513c20ea",
+      "split": "train",
+      "crop_xyxy": [
+        1165,
+        278,
+        2189,
+        1302
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_37_Pro_left",
+      "source_id": "WIN_20220408_14_13_37_Pro",
+      "source_sha256": "0da687d78dbe6bcb06bdc6ec909ba1c9a1e069533d7b6598daf7aac782aefaa9",
+      "split": "train",
+      "crop_xyxy": [
+        215,
+        203,
+        1239,
+        1227
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_37_Pro_right",
+      "source_id": "WIN_20220408_14_13_37_Pro",
+      "source_sha256": "0da687d78dbe6bcb06bdc6ec909ba1c9a1e069533d7b6598daf7aac782aefaa9",
+      "split": "train",
+      "crop_xyxy": [
+        1239,
+        286,
+        2263,
+        1310
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_49_Pro_left",
+      "source_id": "WIN_20220408_14_13_49_Pro",
+      "source_sha256": "80cb89d9e56dfa26bcf9573b31ca2dcb651ba827a405404212191b20b7b9900c",
+      "split": "train",
+      "crop_xyxy": [
+        225,
+        278,
+        1249,
+        1302
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_13_49_Pro_right",
+      "source_id": "WIN_20220408_14_13_49_Pro",
+      "source_sha256": "80cb89d9e56dfa26bcf9573b31ca2dcb651ba827a405404212191b20b7b9900c",
+      "split": "train",
+      "crop_xyxy": [
+        1249,
+        327,
+        2273,
+        1351
+      ],
+      "labels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_00_Pro_left",
+      "source_id": "WIN_20220408_14_14_00_Pro",
+      "source_sha256": "a88d107d864c5988c989f90652207ba99f8a66e6523bd7637e12db4cbb1fe00a",
+      "split": "train",
+      "crop_xyxy": [
+        186,
+        265,
+        1210,
+        1289
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_00_Pro_right",
+      "source_id": "WIN_20220408_14_14_00_Pro",
+      "source_sha256": "a88d107d864c5988c989f90652207ba99f8a66e6523bd7637e12db4cbb1fe00a",
+      "split": "train",
+      "crop_xyxy": [
+        1210,
+        261,
+        2234,
+        1285
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_11_Pro_left",
+      "source_id": "WIN_20220408_14_14_11_Pro",
+      "source_sha256": "252cf8652d5b740160b195e1e066e418b8d6e3504cc6bd88860284a04fb4da00",
+      "split": "train",
+      "crop_xyxy": [
+        216,
+        217,
+        1240,
+        1241
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_11_Pro_right",
+      "source_id": "WIN_20220408_14_14_11_Pro",
+      "source_sha256": "252cf8652d5b740160b195e1e066e418b8d6e3504cc6bd88860284a04fb4da00",
+      "split": "train",
+      "crop_xyxy": [
+        1240,
+        302,
+        2264,
+        1326
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_21_Pro_left",
+      "source_id": "WIN_20220408_14_14_21_Pro",
+      "source_sha256": "1b976bd899e72ae32f56f983f09762740dcbc66cfba57b860018603ded73a042",
+      "split": "train",
+      "crop_xyxy": [
+        270,
+        252,
+        1294,
+        1276
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_21_Pro_right",
+      "source_id": "WIN_20220408_14_14_21_Pro",
+      "source_sha256": "1b976bd899e72ae32f56f983f09762740dcbc66cfba57b860018603ded73a042",
+      "split": "train",
+      "crop_xyxy": [
+        1294,
+        416,
+        2318,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_34_Pro_left",
+      "source_id": "WIN_20220408_14_14_34_Pro",
+      "source_sha256": "0e7cc03a8b75e33d25f8fa9b9bf4dc041ab0dc0a2dc33211afdc6968a6cce5c6",
+      "split": "train",
+      "crop_xyxy": [
+        279,
+        232,
+        1303,
+        1256
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_34_Pro_right",
+      "source_id": "WIN_20220408_14_14_34_Pro",
+      "source_sha256": "0e7cc03a8b75e33d25f8fa9b9bf4dc041ab0dc0a2dc33211afdc6968a6cce5c6",
+      "split": "train",
+      "crop_xyxy": [
+        1303,
+        294,
+        2327,
+        1318
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_47_Pro_left",
+      "source_id": "WIN_20220408_14_14_47_Pro",
+      "source_sha256": "cd87b05adec86c226c8c32106aa717a01a0e677522bfa0392d0bf07f3172b129",
+      "split": "train",
+      "crop_xyxy": [
+        158,
+        227,
+        1182,
+        1251
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_47_Pro_right",
+      "source_id": "WIN_20220408_14_14_47_Pro",
+      "source_sha256": "cd87b05adec86c226c8c32106aa717a01a0e677522bfa0392d0bf07f3172b129",
+      "split": "train",
+      "crop_xyxy": [
+        1182,
+        361,
+        2206,
+        1385
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_57_Pro_left",
+      "source_id": "WIN_20220408_14_14_57_Pro",
+      "source_sha256": "a22ab23b887c21ce6b944e35f3a45b42b18e738d3f8b8904946933259ebb8ee0",
+      "split": "train",
+      "crop_xyxy": [
+        265,
+        234,
+        1289,
+        1258
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_14_57_Pro_right",
+      "source_id": "WIN_20220408_14_14_57_Pro",
+      "source_sha256": "a22ab23b887c21ce6b944e35f3a45b42b18e738d3f8b8904946933259ebb8ee0",
+      "split": "train",
+      "crop_xyxy": [
+        1289,
+        295,
+        2313,
+        1319
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_15_16_Pro_left",
+      "source_id": "WIN_20220408_14_15_16_Pro",
+      "source_sha256": "af0fb046340a7bf48ff5d56ed54fc1f1d222f51f41f8796e1279eec2b8cebd2e",
+      "split": "train",
+      "crop_xyxy": [
+        18,
+        165,
+        1042,
+        1189
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_15_16_Pro_right",
+      "source_id": "WIN_20220408_14_15_16_Pro",
+      "source_sha256": "af0fb046340a7bf48ff5d56ed54fc1f1d222f51f41f8796e1279eec2b8cebd2e",
+      "split": "train",
+      "crop_xyxy": [
+        1042,
+        356,
+        2066,
+        1380
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_20_Pro_left",
+      "source_id": "WIN_20220408_14_16_20_Pro",
+      "source_sha256": "03514bf7cebd660155327d7b4d5b7a5dea6cc755d8a388c62906a09078bb709b",
+      "split": "val",
+      "crop_xyxy": [
+        341,
+        304,
+        1365,
+        1328
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_20_Pro_right",
+      "source_id": "WIN_20220408_14_16_20_Pro",
+      "source_sha256": "03514bf7cebd660155327d7b4d5b7a5dea6cc755d8a388c62906a09078bb709b",
+      "split": "val",
+      "crop_xyxy": [
+        1365,
+        331,
+        2389,
+        1355
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_40_Pro_left",
+      "source_id": "WIN_20220408_14_16_40_Pro",
+      "source_sha256": "0646b9f109eb674ee410c70ec361c7805f306286f4db5a5ae16b4e76edb625f6",
+      "split": "train",
+      "crop_xyxy": [
+        452,
+        290,
+        1476,
+        1314
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_40_Pro_right",
+      "source_id": "WIN_20220408_14_16_40_Pro",
+      "source_sha256": "0646b9f109eb674ee410c70ec361c7805f306286f4db5a5ae16b4e76edb625f6",
+      "split": "train",
+      "crop_xyxy": [
+        1476,
+        416,
+        2500,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_59_Pro_left",
+      "source_id": "WIN_20220408_14_16_59_Pro",
+      "source_sha256": "c7eb3678a58ab956b7d6a001276c958b4708506191925b1d9f8ecd6a45e2f605",
+      "split": "train",
+      "crop_xyxy": [
+        335,
+        267,
+        1359,
+        1291
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_16_59_Pro_right",
+      "source_id": "WIN_20220408_14_16_59_Pro",
+      "source_sha256": "c7eb3678a58ab956b7d6a001276c958b4708506191925b1d9f8ecd6a45e2f605",
+      "split": "train",
+      "crop_xyxy": [
+        1359,
+        416,
+        2383,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_12_Pro_left",
+      "source_id": "WIN_20220408_14_17_12_Pro",
+      "source_sha256": "43d02fc7dd47e125ddad90d65d2bc82d20d2951bc3cfe7af6558e4a274d57914",
+      "split": "train",
+      "crop_xyxy": [
+        330,
+        314,
+        1354,
+        1338
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_12_Pro_right",
+      "source_id": "WIN_20220408_14_17_12_Pro",
+      "source_sha256": "43d02fc7dd47e125ddad90d65d2bc82d20d2951bc3cfe7af6558e4a274d57914",
+      "split": "train",
+      "crop_xyxy": [
+        1354,
+        416,
+        2378,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_26_Pro_left",
+      "source_id": "WIN_20220408_14_17_26_Pro",
+      "source_sha256": "e77f58d64ab8f35b81cc2016095a323477ae68ba87dd6d54b9de539e4aedbfcb",
+      "split": "test",
+      "crop_xyxy": [
+        397,
+        321,
+        1421,
+        1345
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_26_Pro_right",
+      "source_id": "WIN_20220408_14_17_26_Pro",
+      "source_sha256": "e77f58d64ab8f35b81cc2016095a323477ae68ba87dd6d54b9de539e4aedbfcb",
+      "split": "test",
+      "crop_xyxy": [
+        1421,
+        416,
+        2445,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_48_Pro_left",
+      "source_id": "WIN_20220408_14_17_48_Pro",
+      "source_sha256": "bd347a37ad89f9a30e3f7d7b42a4ea44a16088afa96755cb02885a133a4c1e79",
+      "split": "train",
+      "crop_xyxy": [
+        356,
+        282,
+        1380,
+        1306
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_17_48_Pro_right",
+      "source_id": "WIN_20220408_14_17_48_Pro",
+      "source_sha256": "bd347a37ad89f9a30e3f7d7b42a4ea44a16088afa96755cb02885a133a4c1e79",
+      "split": "train",
+      "crop_xyxy": [
+        1380,
+        416,
+        2404,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_00_Pro_left",
+      "source_id": "WIN_20220408_14_18_00_Pro",
+      "source_sha256": "c43d5be3e97ecf897ee5a42432890e4ae78c8abc41ad6ef9310a5de476d56236",
+      "split": "train",
+      "crop_xyxy": [
+        315,
+        362,
+        1339,
+        1386
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_00_Pro_right",
+      "source_id": "WIN_20220408_14_18_00_Pro",
+      "source_sha256": "c43d5be3e97ecf897ee5a42432890e4ae78c8abc41ad6ef9310a5de476d56236",
+      "split": "train",
+      "crop_xyxy": [
+        1339,
+        403,
+        2363,
+        1427
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_18_Pro_left",
+      "source_id": "WIN_20220408_14_18_18_Pro",
+      "source_sha256": "acbefc0ef963bb18d8d893f0a1a8dbd183d5016818bd96c7cacd46dfa3a83525",
+      "split": "train",
+      "crop_xyxy": [
+        407,
+        203,
+        1431,
+        1227
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_18_Pro_right",
+      "source_id": "WIN_20220408_14_18_18_Pro",
+      "source_sha256": "acbefc0ef963bb18d8d893f0a1a8dbd183d5016818bd96c7cacd46dfa3a83525",
+      "split": "train",
+      "crop_xyxy": [
+        1431,
+        415,
+        2455,
+        1439
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_26_Pro_left",
+      "source_id": "WIN_20220408_14_18_26_Pro",
+      "source_sha256": "2c533fc82ba77fec7588427c70fc5bd4ed960483162b41cae364ec72517d4d07",
+      "split": "train",
+      "crop_xyxy": [
+        442,
+        300,
+        1466,
+        1324
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_18_26_Pro_right",
+      "source_id": "WIN_20220408_14_18_26_Pro",
+      "source_sha256": "2c533fc82ba77fec7588427c70fc5bd4ed960483162b41cae364ec72517d4d07",
+      "split": "train",
+      "crop_xyxy": [
+        1466,
+        416,
+        2490,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_18_Pro_left",
+      "source_id": "WIN_20220408_14_24_18_Pro",
+      "source_sha256": "1fe50bb5f8d17c26f148441869527b71159174839266b5d02e66bc0d8d23ddec",
+      "split": "val",
+      "crop_xyxy": [
+        212,
+        214,
+        1236,
+        1238
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_18_Pro_right",
+      "source_id": "WIN_20220408_14_24_18_Pro",
+      "source_sha256": "1fe50bb5f8d17c26f148441869527b71159174839266b5d02e66bc0d8d23ddec",
+      "split": "val",
+      "crop_xyxy": [
+        1236,
+        331,
+        2260,
+        1355
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_30_Pro_left",
+      "source_id": "WIN_20220408_14_24_30_Pro",
+      "source_sha256": "c789d6f337f8f6af8e1e623e39458ff5c184d097d3b9ff04719e9fd92cb4fe2b",
+      "split": "train",
+      "crop_xyxy": [
+        201,
+        192,
+        1225,
+        1216
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_30_Pro_right",
+      "source_id": "WIN_20220408_14_24_30_Pro",
+      "source_sha256": "c789d6f337f8f6af8e1e623e39458ff5c184d097d3b9ff04719e9fd92cb4fe2b",
+      "split": "train",
+      "crop_xyxy": [
+        1225,
+        296,
+        2249,
+        1320
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_40_Pro_left",
+      "source_id": "WIN_20220408_14_24_40_Pro",
+      "source_sha256": "ef6b18c5e815141eb8063c50bc96bbd5ef78a082f166e676050829c6c178baa1",
+      "split": "train",
+      "crop_xyxy": [
+        151,
+        208,
+        1175,
+        1232
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_40_Pro_right",
+      "source_id": "WIN_20220408_14_24_40_Pro",
+      "source_sha256": "ef6b18c5e815141eb8063c50bc96bbd5ef78a082f166e676050829c6c178baa1",
+      "split": "train",
+      "crop_xyxy": [
+        1175,
+        404,
+        2199,
+        1428
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_59_Pro_left",
+      "source_id": "WIN_20220408_14_24_59_Pro",
+      "source_sha256": "763d205e31fe481eb8d3feb1df5007129d7efe41e13d435eec26bba5d8da934a",
+      "split": "test",
+      "crop_xyxy": [
+        282,
+        105,
+        1306,
+        1129
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_24_59_Pro_right",
+      "source_id": "WIN_20220408_14_24_59_Pro",
+      "source_sha256": "763d205e31fe481eb8d3feb1df5007129d7efe41e13d435eec26bba5d8da934a",
+      "split": "test",
+      "crop_xyxy": [
+        1306,
+        184,
+        2330,
+        1208
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_22_Pro_left",
+      "source_id": "WIN_20220408_14_25_22_Pro",
+      "source_sha256": "498f3e63dc770f64db4d0e9f6fa1cd32eb52a973ffd0d87275df3aebfe5f8bcb",
+      "split": "train",
+      "crop_xyxy": [
+        354,
+        286,
+        1378,
+        1310
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_22_Pro_right",
+      "source_id": "WIN_20220408_14_25_22_Pro",
+      "source_sha256": "498f3e63dc770f64db4d0e9f6fa1cd32eb52a973ffd0d87275df3aebfe5f8bcb",
+      "split": "train",
+      "crop_xyxy": [
+        1378,
+        416,
+        2402,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_34_Pro_left",
+      "source_id": "WIN_20220408_14_25_34_Pro",
+      "source_sha256": "7653ece814317b2f4d800bb53c8d0d42f87be8508831cbe5574881a0ccdcdaaa",
+      "split": "train",
+      "crop_xyxy": [
+        294,
+        174,
+        1318,
+        1198
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_34_Pro_right",
+      "source_id": "WIN_20220408_14_25_34_Pro",
+      "source_sha256": "7653ece814317b2f4d800bb53c8d0d42f87be8508831cbe5574881a0ccdcdaaa",
+      "split": "train",
+      "crop_xyxy": [
+        1318,
+        316,
+        2342,
+        1340
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_56_Pro_left",
+      "source_id": "WIN_20220408_14_25_56_Pro",
+      "source_sha256": "dac1b9498cc93e0bec522109ed6368b0e5344904a36d922280872c17cabc2379",
+      "split": "train",
+      "crop_xyxy": [
+        214,
+        108,
+        1238,
+        1132
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_25_56_Pro_right",
+      "source_id": "WIN_20220408_14_25_56_Pro",
+      "source_sha256": "dac1b9498cc93e0bec522109ed6368b0e5344904a36d922280872c17cabc2379",
+      "split": "train",
+      "crop_xyxy": [
+        1238,
+        300,
+        2262,
+        1324
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_07_Pro_left",
+      "source_id": "WIN_20220408_14_26_07_Pro",
+      "source_sha256": "2cc3666fb9a55fc8120623f7dbf0b3acb38c463aa5cb4543cdefb6fb7d090241",
+      "split": "test",
+      "crop_xyxy": [
+        316,
+        257,
+        1340,
+        1281
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_07_Pro_right",
+      "source_id": "WIN_20220408_14_26_07_Pro",
+      "source_sha256": "2cc3666fb9a55fc8120623f7dbf0b3acb38c463aa5cb4543cdefb6fb7d090241",
+      "split": "test",
+      "crop_xyxy": [
+        1340,
+        380,
+        2364,
+        1404
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_31_Pro_left",
+      "source_id": "WIN_20220408_14_26_31_Pro",
+      "source_sha256": "d88e306f411a1461832f459287c8b7a921e25a426812f635fd512788d90f1cfd",
+      "split": "train",
+      "crop_xyxy": [
+        378,
+        97,
+        1402,
+        1121
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_31_Pro_right",
+      "source_id": "WIN_20220408_14_26_31_Pro",
+      "source_sha256": "d88e306f411a1461832f459287c8b7a921e25a426812f635fd512788d90f1cfd",
+      "split": "train",
+      "crop_xyxy": [
+        1402,
+        383,
+        2426,
+        1407
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_45_Pro_left",
+      "source_id": "WIN_20220408_14_26_45_Pro",
+      "source_sha256": "1daac1b37cb0a9a58742efd8f2c7f97d74c73e906d77c21ba72eb58325c0547b",
+      "split": "train",
+      "crop_xyxy": [
+        387,
+        334,
+        1411,
+        1358
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_26_45_Pro_right",
+      "source_id": "WIN_20220408_14_26_45_Pro",
+      "source_sha256": "1daac1b37cb0a9a58742efd8f2c7f97d74c73e906d77c21ba72eb58325c0547b",
+      "split": "train",
+      "crop_xyxy": [
+        1411,
+        416,
+        2435,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_27_01_Pro_left",
+      "source_id": "WIN_20220408_14_27_01_Pro",
+      "source_sha256": "3760eae1f8dd9437c06d0c2d7e5ad8ffaf0d1e1d3985cbadc34fca1e14054192",
+      "split": "val",
+      "crop_xyxy": [
+        242,
+        165,
+        1266,
+        1189
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_27_01_Pro_right",
+      "source_id": "WIN_20220408_14_27_01_Pro",
+      "source_sha256": "3760eae1f8dd9437c06d0c2d7e5ad8ffaf0d1e1d3985cbadc34fca1e14054192",
+      "split": "val",
+      "crop_xyxy": [
+        1266,
+        416,
+        2290,
+        1440
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_27_19_Pro_left",
+      "source_id": "WIN_20220408_14_27_19_Pro",
+      "source_sha256": "15af9c089ea7efb3f8aadb373aced7390a612232b67629592e05dec5afaa4f20",
+      "split": "test",
+      "crop_xyxy": [
+        512,
+        195,
+        1536,
+        1219
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_27_19_Pro_right",
+      "source_id": "WIN_20220408_14_27_19_Pro",
+      "source_sha256": "15af9c089ea7efb3f8aadb373aced7390a612232b67629592e05dec5afaa4f20",
+      "split": "test",
+      "crop_xyxy": [
+        1536,
+        354,
+        2560,
+        1378
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_30_59_Pro_left",
+      "source_id": "WIN_20220408_14_30_59_Pro",
+      "source_sha256": "cc0cb09d811c28dc65d363b6223621ea25117eba3b84baab2e6a7f6395182f3b",
+      "split": "test",
+      "crop_xyxy": [
+        395,
+        17,
+        1419,
+        1041
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_30_59_Pro_right",
+      "source_id": "WIN_20220408_14_30_59_Pro",
+      "source_sha256": "cc0cb09d811c28dc65d363b6223621ea25117eba3b84baab2e6a7f6395182f3b",
+      "split": "test",
+      "crop_xyxy": [
+        1419,
+        141,
+        2443,
+        1165
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_09_Pro_left",
+      "source_id": "WIN_20220408_14_31_09_Pro",
+      "source_sha256": "5d3952b6e9cf00f39e1776289593f19872b3aa004daa8c2bf607ee6fb42664cc",
+      "split": "val",
+      "crop_xyxy": [
+        257,
+        76,
+        1281,
+        1100
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_09_Pro_right",
+      "source_id": "WIN_20220408_14_31_09_Pro",
+      "source_sha256": "5d3952b6e9cf00f39e1776289593f19872b3aa004daa8c2bf607ee6fb42664cc",
+      "split": "val",
+      "crop_xyxy": [
+        1281,
+        151,
+        2305,
+        1175
+      ],
+      "labels": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_27_Pro_left",
+      "source_id": "WIN_20220408_14_31_27_Pro",
+      "source_sha256": "272ba205d414793014555e5db812ba0888c67999a102fc3f57f898a5dc2bde48",
+      "split": "train",
+      "crop_xyxy": [
+        120,
+        323,
+        1144,
+        1347
+      ],
+      "labels": [
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_27_Pro_right",
+      "source_id": "WIN_20220408_14_31_27_Pro",
+      "source_sha256": "272ba205d414793014555e5db812ba0888c67999a102fc3f57f898a5dc2bde48",
+      "split": "train",
+      "crop_xyxy": [
+        1144,
+        416,
+        2168,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_36_Pro_left",
+      "source_id": "WIN_20220408_14_31_36_Pro",
+      "source_sha256": "9a3dca482a0a04d4af97be995e5d7aabb9b3513bd18d5a396477a7e49df187d8",
+      "split": "train",
+      "crop_xyxy": [
+        216,
+        371,
+        1240,
+        1395
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_36_Pro_right",
+      "source_id": "WIN_20220408_14_31_36_Pro",
+      "source_sha256": "9a3dca482a0a04d4af97be995e5d7aabb9b3513bd18d5a396477a7e49df187d8",
+      "split": "train",
+      "crop_xyxy": [
+        1240,
+        411,
+        2264,
+        1435
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_46_Pro_left",
+      "source_id": "WIN_20220408_14_31_46_Pro",
+      "source_sha256": "d1e5b1cfefe68f0ba58fd5291d990ec6ce25ea665859b4dc231e1d18f608eb9c",
+      "split": "train",
+      "crop_xyxy": [
+        297,
+        416,
+        1321,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_46_Pro_right",
+      "source_id": "WIN_20220408_14_31_46_Pro",
+      "source_sha256": "d1e5b1cfefe68f0ba58fd5291d990ec6ce25ea665859b4dc231e1d18f608eb9c",
+      "split": "train",
+      "crop_xyxy": [
+        1321,
+        416,
+        2345,
+        1440
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_58_Pro_left",
+      "source_id": "WIN_20220408_14_31_58_Pro",
+      "source_sha256": "6b251c57d15bde2164048cedb9370e1ffac133b8c2abc54ae207d067bb0aeada",
+      "split": "train",
+      "crop_xyxy": [
+        276,
+        279,
+        1300,
+        1303
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_31_58_Pro_right",
+      "source_id": "WIN_20220408_14_31_58_Pro",
+      "source_sha256": "6b251c57d15bde2164048cedb9370e1ffac133b8c2abc54ae207d067bb0aeada",
+      "split": "train",
+      "crop_xyxy": [
+        1300,
+        346,
+        2324,
+        1370
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_07_Pro_left",
+      "source_id": "WIN_20220408_14_32_07_Pro",
+      "source_sha256": "38a79bddb1b58edcf36a03f9375f63e7709432ef026c828501aadaeb34503340",
+      "split": "train",
+      "crop_xyxy": [
+        127,
+        293,
+        1151,
+        1317
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_07_Pro_right",
+      "source_id": "WIN_20220408_14_32_07_Pro",
+      "source_sha256": "38a79bddb1b58edcf36a03f9375f63e7709432ef026c828501aadaeb34503340",
+      "split": "train",
+      "crop_xyxy": [
+        1151,
+        318,
+        2175,
+        1342
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_15_Pro_left",
+      "source_id": "WIN_20220408_14_32_15_Pro",
+      "source_sha256": "ec365f109023153d0abe23f9430e6749d9b890c5d3c8aa4cfddafc0c9e61f08f",
+      "split": "test",
+      "crop_xyxy": [
+        19,
+        207,
+        1043,
+        1231
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_15_Pro_right",
+      "source_id": "WIN_20220408_14_32_15_Pro",
+      "source_sha256": "ec365f109023153d0abe23f9430e6749d9b890c5d3c8aa4cfddafc0c9e61f08f",
+      "split": "test",
+      "crop_xyxy": [
+        1043,
+        396,
+        2067,
+        1420
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_27_Pro_left",
+      "source_id": "WIN_20220408_14_32_27_Pro",
+      "source_sha256": "f83363422e80e38ed40b7ff1d17efc6f17d6e39946e9213b0ebd6efacb320cfc",
+      "split": "train",
+      "crop_xyxy": [
+        210,
+        272,
+        1234,
+        1296
+      ],
+      "labels": [
+        1
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_27_Pro_right",
+      "source_id": "WIN_20220408_14_32_27_Pro",
+      "source_sha256": "f83363422e80e38ed40b7ff1d17efc6f17d6e39946e9213b0ebd6efacb320cfc",
+      "split": "train",
+      "crop_xyxy": [
+        1234,
+        401,
+        2258,
+        1425
+      ],
+      "labels": [
+        2
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_54_Pro_left",
+      "source_id": "WIN_20220408_14_32_54_Pro",
+      "source_sha256": "059bae4fe715fbbef44ea9a43d6e37def16b56b715db4c0c6ef7c4181df115ca",
+      "split": "val",
+      "crop_xyxy": [
+        331,
+        256,
+        1355,
+        1280
+      ],
+      "labels": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "WIN_20220408_14_32_54_Pro_right",
+      "source_id": "WIN_20220408_14_32_54_Pro",
+      "source_sha256": "059bae4fe715fbbef44ea9a43d6e37def16b56b715db4c0c6ef7c4181df115ca",
+      "split": "val",
+      "crop_xyxy": [
+        1355,
+        366,
+        2379,
+        1390
+      ],
+      "labels": [
+        2
+      ]
+    }
+  ]
+}

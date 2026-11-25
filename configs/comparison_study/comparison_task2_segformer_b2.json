@@ -1,0 +1,58 @@
+{
+  "experiment": "comparison_task2_segformer_b2",
+  "protocol_id": "two_task_comparison_v1",
+  "task": "task2",
+  "task_description": "45-degree solder joint state (good / excessive / insufficient / spike)",
+  "dataset": "soldef",
+  "classes": [
+    "background",
+    "good",
+    "exc_solder",
+    "poor_solder",
+    "spike"
+  ],
+  "image_size": 512,
+  "split_seed": 42,
+  "split_protocol": "source_group",
+  "model": {
+    "name": "segformer_b2",
+    "pretrained": true,
+    "weights_path": "modern_study/assets/mit_b2.pth",
+    "weights_sha256": "7cd40972ccdb467b3e061ec99e29470dee0245ac684031f01ca64af0427e44c0"
+  },
+  "model_provenance": "Pinned author model; modern_study/vendor. Necessary author auxiliary supervision retained; common SolDef training budget, not original benchmark replication.",
+  "training": {
+    "epochs": 150,
+    "batch_size": 2,
+    "lr": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 1e-05,
+    "scheduler": "cosine",
+    "workers": 4,
+    "cpu_threads": 4,
+    "selection": "min_val_loss",
+    "mixed_precision": false,
+    "min_lr": 1e-06
+  },
+  "loss": {
+    "alpha": 0.25,
+    "gamma": 2.0,
+    "dice_weight": 0.5,
+    "focal_weight": 0.5,
+    "smooth": 1e-06
+  },
+  "loss_protocol": "softmax_one_vs_rest_binary_focal_mean_over_classes",
+  "metric_protocol": "global_confusion_macro_all_classes_empty_zero_v1",
+  "profiling": {
+    "batch_size": 1,
+    "warmup": 10,
+    "iterations": 100
+  },
+  "manifest": "data/processed/soldef/manifest.json",
+  "manifest_sha256": "f1d240244d420e55ae0a7aa5023af62a4fd7a8779260b6969186dddd3a15f622",
+  "loss_numerics": "logsumexp/log_softmax; same softmax one-vs-rest Dice/Focal formula; no hard probability clamp",
+  "evaluation_scope": "train/validation; all comparisons plus ablations selected before final test",
+  "initialization_protocol": "ImageNet-1k encoder, random segmentation heads; classic U-Net from scratch",
+  "training_loss": "author_CE",
+  "validation_selection_loss": "common stable paper Dice/Focal on main output only"
+}

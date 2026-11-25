@@ -1,0 +1,62 @@
+{
+  "experiment": "twotask_task1_residual_cbam",
+  "protocol_id": "two_task_v1",
+  "task": "task1",
+  "task_description": "top-view SMT component placement (good / no_good)",
+  "dataset": "soldef_task1",
+  "classes": [
+    "background",
+    "good",
+    "no_good"
+  ],
+  "image_size": 512,
+  "split_seed": 42,
+  "split_protocol": "source_group",
+  "model": {
+    "name": "paper_unet",
+    "backbone": "convnext_base",
+    "attention": "cbam",
+    "pretrained": true,
+    "feature_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "model_provenance": "Original ConvNeXt-Base/decoder and DPCAM operators; explicit study_variant defines removals or residual candidate; common parameters shared before attention",
+  "training": {
+    "epochs": 150,
+    "batch_size": 2,
+    "lr": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 1e-05,
+    "scheduler": "cosine",
+    "workers": 4,
+    "cpu_threads": 4,
+    "selection": "min_val_loss",
+    "mixed_precision": false,
+    "min_lr": 1e-06
+  },
+  "loss": {
+    "alpha": 0.25,
+    "gamma": 2.0,
+    "dice_weight": 0.5,
+    "focal_weight": 0.5,
+    "smooth": 1e-06
+  },
+  "loss_protocol": "softmax_one_vs_rest_binary_focal_mean_over_classes",
+  "metric_protocol": "global_confusion_macro_all_classes_empty_zero_v1",
+  "position_encoding": "stage resolution at image_size; bilinear interpolation",
+  "profiling": {
+    "batch_size": 1,
+    "warmup": 10,
+    "iterations": 100
+  },
+  "manifest": "data/processed/soldef_task1/manifest.json",
+  "manifest_sha256": "b89fac06d40d733405e33462a39c4332c1dbdac1ee847ed3af10a70f925c1b76",
+  "loss_numerics": "logsumexp/log_softmax; same softmax one-vs-rest Dice/Focal formula; no hard probability clamp",
+  "evaluation_scope": "train/validation only; test frozen",
+  "study_variant": "residual_cbam",
+  "initialization_protocol": "Construct common no-attention model first; append attention with a separate seeded RNG"
+}
