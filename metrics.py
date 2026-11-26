@@ -1,34 +1,82 @@
-"""One global confusion matrix; same class set and reduction for all metrics."""
-import numpy as np
 import torch
+import torch.nn.functional as F
+
+NUM_CLASSES = 5
+
+EPS = 1e-6
+
+def one_hot_encode(mask, num_classes=NUM_CLASSES):
+    """
+    mask: [B,H,W] long
+    return: [B,C,H,W] float
+    """
+    return F.one_hot(mask, num_classes).permute(0,3,1,2).float()
 
 
-class ConfusionMatrix:
-    def __init__(self, num_classes):
-        self.num_classes = num_classes
-        self.matrix = np.zeros((num_classes, num_classes), dtype=np.int64)
+def _prepare_onehot_predictions(pred, target):
+    """Convert logits and labels to hard one-hot maps for metric computation."""
+    num_classes = pred.shape[1]
+    pred_classes = pred.argmax(dim=1)
+    pred_onehot = one_hot_encode(pred_classes, num_classes=num_classes)
+    target_onehot = one_hot_encode(target, num_classes=num_classes)
+    return pred_onehot, target_onehot
 
-    def update(self, prediction, target):
-        if prediction.ndim == target.ndim+1:
-            prediction = prediction.argmax(1)
-        values = self.num_classes*target.reshape(-1).long() + prediction.reshape(-1).long()
-        counts = torch.bincount(values, minlength=self.num_classes**2)
-        self.matrix += counts.reshape(self.num_classes, self.num_classes).cpu().numpy()
 
-    def compute(self, classes):
-        cm = self.matrix.astype(np.float64)
-        tp, gt, pred = np.diag(cm), cm.sum(1), cm.sum(0)
-        union = gt+pred-tp
-        iou = np.divide(tp, union, out=np.zeros_like(tp), where=union>0)
-        dice = np.divide(2*tp, gt+pred, out=np.zeros_like(tp), where=(gt+pred)>0)
-        recall = np.divide(tp, gt, out=np.zeros_like(tp), where=gt>0)
-        precision = np.divide(tp, pred, out=np.zeros_like(tp), where=pred>0)
-        per_class = {name: {'IoU': float(iou[i]), 'Dice': float(dice[i]),
-                            'Recall': float(recall[i]), 'Precision': float(precision[i]),
-                            'gt_pixels': int(gt[i])} for i, name in enumerate(classes)}
-        # Fixed C, including background. Empty GT classes get recall=0 and are flagged.
-        return {'mIoU': float(iou.mean()), 'mDice': float(dice.mean()),
-                'mPA': float(recall.mean()), 'foreground_mIoU': float(iou[1:].mean()),
-                'pixel_accuracy': float(tp.sum()/max(cm.sum(), 1)), 'per_class': per_class,
-                'absent_gt_classes': [classes[i] for i in np.flatnonzero(gt == 0)],
-                'metric_protocol': 'global_confusion_macro_all_classes_empty_zero_v1'}
+def _class_stats(pred, target):
+    """
+    Compute per-class TP/FP/FN over the whole batch.
+    pred/target: [B, C, H, W] one-hot
+    """
+    tp = (pred * target).sum(dim=(0, 2, 3))
+    fp = (pred * (1 - target)).sum(dim=(0, 2, 3))
+    fn = ((1 - pred) * target).sum(dim=(0, 2, 3))
+    return tp, fp, fn
+
+
+def dice_coef(pred, target, eps=EPS):
+    """
+    pred: [B,C,H,W] logits
+    target: [B,H,W] long
+    """
+    pred_onehot, target_onehot = _prepare_onehot_predictions(pred, target)
+    tp = (pred_onehot * target_onehot).sum(dim=(2, 3))
+    fp = (pred_onehot * (1 - target_onehot)).sum(dim=(2, 3))
+    fn = ((1 - pred_onehot) * target_onehot).sum(dim=(2, 3))
+    dice = (2 * tp + eps) / (2 * tp + fp + fn + eps)
+    return dice.mean().item()
+
+def iou_score(pred, target, eps=EPS):
+    pred_onehot, target_onehot = _prepare_onehot_predictions(pred, target)
+    intersection = (pred_onehot * target_onehot).sum(dim=(2, 3))
+    union = (pred_onehot + target_onehot - pred_onehot * target_onehot).sum(dim=(2, 3))
+    iou = (intersection + eps) / (union + eps)
+    return iou.mean().item()
+
+def precision_score(pred, target, eps=EPS):
+    pred_onehot, target_onehot = _prepare_onehot_predictions(pred, target)
+    tp = (pred_onehot * target_onehot).sum(dim=(2, 3))
+    fp = (pred_onehot * (1 - target_onehot)).sum(dim=(2, 3))
+    precision = (tp + eps) / (tp + fp + eps)
+    return precision.mean().item()
+
+def recall_score(pred, target, eps=EPS):
+    pred_onehot, target_onehot = _prepare_onehot_predictions(pred, target)
+    tp = (pred_onehot * target_onehot).sum(dim=(2, 3))
+    fn = ((1 - pred_onehot) * target_onehot).sum(dim=(2, 3))
+    recall = (tp + eps) / (tp + fn + eps)
+    return recall.mean().item()
+
+
+def mpa_score(pred, target, eps=EPS):
+    """
+    mPA (mean Pixel Accuracy): mean of per-class pixel accuracy.
+    mPA = mean_c( correctly predicted pixels of class c / total GT pixels of class c )
+    """
+    pred_onehot, target_onehot = _prepare_onehot_predictions(pred, target)
+    correct_pixels_per_class = (pred_onehot * target_onehot).sum(dim=(0, 2, 3))
+    total_gt_pixels_per_class = target_onehot.sum(dim=(0, 2, 3))
+    valid = total_gt_pixels_per_class > 0
+    if not valid.any():
+        return 0.0
+    class_pa = (correct_pixels_per_class[valid] + eps) / (total_gt_pixels_per_class[valid] + eps)
+    return class_pa.mean().item()

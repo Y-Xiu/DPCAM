@@ -26,3 +26,11 @@ venv/
 *.log
 *.tmp
 *.part
+
+# Original VisA/SolDef workflow runtime outputs
+/data/
+/visa/
+/visa_pcb123_1024_split/
+/checkpoints/
+/logs/
+/outputs/

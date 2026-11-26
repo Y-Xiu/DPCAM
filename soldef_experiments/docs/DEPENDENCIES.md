@@ -1,6 +1,6 @@
 # Environment and external assets
 
-Run commands from the repository root. This release contains source, configurations and split IDs; it does not contain datasets, pretrained weights, third-party checkouts, CUDA binaries or virtual environments. Nothing in the setup commands starts an experiment.
+Run commands from `soldef_experiments/` (first `cd soldef_experiments` from the repository root). This release contains source, configurations and split IDs; it does not contain datasets, pretrained weights, third-party checkouts, CUDA binaries or virtual environments. Nothing in the setup commands starts an experiment.
 
 ## Base environment
 
